@@ -1436,7 +1436,7 @@
 
 .nombrePMV{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #70AF31;
     font-size: 20px;
 }
@@ -2025,6 +2025,7 @@
     height: 27.5vh;
     background-color: #F7FBF6;
     border-radius: 10px;
+    text-align: center;
  }
 
  .cardC_title, .cardC_text, .btnCarrito{
@@ -2857,6 +2858,180 @@ margin-bottom: 10px;
 }
 
 
+
+/* ---------------------------HOME CARNIVORO -------------------------- */
+
+.bodyV{
+    width: 100%;
+ }
+ .navMV{
+    display: none;
+ }
+
+ .testimoniosT hr{
+    width: auto;
+ }
+
+ .lugarHT>hr {
+    width: auto;
+}
+
+.lugarHT .lugar_img{
+    width: 120px;
+    height: 120px;
+}
+
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHT{
+    flex-wrap: wrap;
+}
+
+.imgHT {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHT2{
+    width: 150px;
+    height: 150PX;
+}
+
+.ofertaHT hr{
+    width: auto;
+}
+
+.subtitleHT{
+    font-size: 20px;
+}
+
+.titles{
+    padding-right: 20px;
+}
+
+.containerHT{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHT{
+    display: inline-block;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+.enlaceHT{
+    padding-bottom: 10px;
+}
+
+
+/* ---------------------------------------- MENU CARNIVORO  */
+
+
+.section1MT>h2 {
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+
+.section1MT>p{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.section2MT .imgMV{
+    width: 100%;
+}
+/* MENU CARNIVORO */
+
+.section1MT{
+    font-size: 40px;
+}
+.section3MT>h2{
+    font-size: 20px;
+}
+
+.section3MT{
+    grid-template-columns: 1fr ;
+}
+
+.section4MT{
+    grid-template-columns: 1fr ;
+}
+
+.contenidoMT{
+    padding-bottom: 10px;
+}
+
+
+/* -----------------------GALERIA */
+
+/* GALERIA */
+
+.section1GT{
+    font-size: 40px;
+}
+
+
+/* ------------------------------------INDEX */
+.sectionIndex{
+    margin-left: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.img1{
+    margin-left: 20px;
+    margin-top: 250%;
+    width: 150px;
+    height: 150px;
+}
+
+.sectionIndex h1{
+    
+    font-size: 30px;
+} 
+
+.img2{
+    width: 200px;
+}
+
+.sectionIndex h2{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+.sectionIndex input{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.iconoIndex {
+    margin-top: 400px;
+    left: -120px;
+    font-size: 27px;
+}
+.botonesIndex{
+    display: flex;
+    
+}
+
+.articleIndex{
+    
+    height: auto;
+}
+
+
 }
 
 @media (min-width: 576px) {
@@ -2910,6 +3085,80 @@ margin-bottom: 10px;
     margin-top: 50%;
 } 
 
+/* HOME CARNIVORO  */
+.bodyV{
+    width: 100%;
+ }
+ 
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHT{
+    flex-wrap: wrap;
+}
+
+
+.containerHT{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+    width: 100%;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+.oferta_cardT{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+
+/* INDEX */
+
+.iconoIndex {
+    
+    left: -80px;
+    
+}
+
+.img1 {
+    margin-top: 170%;
+    width: 200px;
+    height: 200px;
+}
+
+.sectionIndex {
+    margin-left: 30px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.sectionIndex h2{
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+.sectionIndex input{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.img2{
+    width: 200px;
+}
+
 }
 
 
@@ -2920,7 +3169,7 @@ margin-bottom: 10px;
     width: 100%;
  }
  .nav_vegan{
-    display: none;
+    display: flex;
  }
  .img_container{
     flex-wrap: wrap;
@@ -3023,6 +3272,81 @@ margin-bottom: 10px;
     width: 40%;;
 }
 
+
+
+/*------------------------------- HOME CARNIVORO */
+
+.bodyV{
+    width: 100%;
+ }
+ .navMV{
+    display: flex;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHT {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHT2{
+    width: 150px;
+    height: 150px;
+}
+
+.containerHT{
+    display: block;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+
+/* --------------------------MENU CARNIVORO  */
+
+.section3MT{
+    grid-template-columns: 1fr 1FR;
+    margin-bottom: 10px;
+}
+.section2MT .imgMV{
+    width: 50%;
+}
+
+.contenidoMT {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section2MT{
+    display: flex;
+}
+
+/* INDEX */
+.img1 {
+    margin-top: 100%;
+    width: 300px;
+    height: 300px;
+    margin-left: 80PX;
+}
+
+
+
 }
 
 
@@ -3032,7 +3356,43 @@ margin-bottom: 10px;
         .nav_vegan{
             display: flex;
          }
-
+    
+        .img_container{
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .dato .menu {
+            font-size: 25px;
+        }
+        
+         .oferta_containerHV{
+            flex-wrap: nowrap;
+        }
+        
+        .imgHV {
+            width: 220px;
+            height: 220px;
+        
+        }
+        .imgHV2{
+            width: 250px;
+            height: 150px;
+        }
+        
+        .containerHV{
+           display: flex;
+           flex-direction: row;
+        }
+        .tittle_container{
+            margin: auto;
+        }
+        
+        .oferta_containerHV{
+            display: block;
+        }
+        
         .oferta_card img {
             width: 100%;
             
@@ -3058,23 +3418,13 @@ margin-bottom: 10px;
             margin-top: 20px;
         
         }
-
-        .oferta_containerHV{
-            display: flex;
-        } 
-    
-        .oferta_card img{
-            width: 28.5vw;
-        }
-
-        .oferta_containerHV{
-            flex-wrap: nowrap;
-        }
         
         .lugarHV .lugar_img{
             height: 400px;
             width: 400px;
         }
+
+        /* RESERVA */
 
         .FraseClima {
             width: auto;
@@ -3085,6 +3435,57 @@ margin-bottom: 10px;
             width: auto;
             left: calc(100vw - 75%);
         }
+
+        /* ----------------------------MENU TRADICIONAL */
+        .containerHT{
+            display: flex;
+           flex-direction: row;
+        }
+
+
+        /* INDEX */
+
+        .iconoIndex {
+            margin-top: 500px;
+            font-size: 40px;
+            left: 80px;
+            
+        }
+        
+        .img1 {
+            margin-top: 50%;
+            width: 400px;
+            height: 400px;
+            margin-left: 150px;
+        }
+        
+        .sectionIndex {
+            margin-left: 30px;
+            width: auto;
+            margin-top: 40px;
+           
+        }
+        
+        .sectionIndex h2{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .sectionIndex input{
+            text-align: center;
+            font-size: 40px;
+            padding: 10px 15px;
+        }
+        
+        .img2{
+            width: 350px;
+        }
+        
+        .sectionIndex h1{
+            
+            font-size: 50px;
+        } 
     }
         
     
@@ -3118,7 +3519,8 @@ margin-bottom: 10px;
     }
     
     .containerHV{
-        flex-direction: column;
+       display: flex;
+       flex-direction: row;
     }
     .tittle_container{
         margin: auto;
@@ -3172,9 +3574,7 @@ margin-bottom: 10px;
         width: 280px;
         height: 280px;
     }
-    .containerHV{
-        flex-direction: row;
-    }
+    
 
     .oferta_containerHV{
         display: flex;
@@ -3190,6 +3590,66 @@ margin-bottom: 10px;
     .alertar {
         left: calc(100vw - 70%);
     }
+
+
+    /*--------------------------------------------- HOME CARNIVORO */
+    .oferta_containerHT{
+        display: flex;
+    } 
+
+    .oferta_containerHV{
+        display: flex;
+    }
+
+
+     /* INDEX */
+
+     .iconoIndex {
+        margin-top: 550px;
+        font-size: 60px;
+        left: 90px;
+        
+    }
+    
+    .img1 {
+        margin-top: 100%;
+        width: 500px;
+        height: 500px;
+        margin-left: 50px;
+    }
+    
+    .sectionIndex {
+        margin-left: 30px;
+        width: auto;
+        margin-top: 40px;
+       
+    }
+    
+    .sectionIndex h2{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 70px;
+    }
+    
+    .sectionIndex input{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+    
+    .img2{
+        width: 400px;
+    }
+    
+    .sectionIndex h1{
+        
+        font-size: 70px;
+    } 
+    .botonesIndex{
+        margin-left: 90px;
+        padding: 20px 25px;
+    }
+
 
 
 }

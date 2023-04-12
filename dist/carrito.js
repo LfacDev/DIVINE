@@ -1,6 +1,5 @@
 'use strict'
 
-
 /* -------------MODAL------------------- */
 const carrito = document.querySelector("#carrito"); 
 const vaciarCarrito = document.querySelector("#vaciar");
@@ -36,135 +35,135 @@ carrito.addEventListener("click", (e)=>{
 const stockProductos = [
     {
         id: 1,
-        nombre: 'Plato 1',
-        precio: 53000,
-        imagen: '../content/img/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg',
+        nombre: 'Arroz Criollo',
+        precio: 36000,
+        imagen: '../content/img/galeria1 (21).jpg',
         cantidad: 1
     },
     {
         id: 2,
-        nombre: 'Plato 2',
-        precio: 39000,
-        imagen: '../content/img/hermes-rivera-k-sTTFdcZek-unsplash.jpg',
+        nombre: 'Vegetales y Seitan Kung Pao',
+        precio: 46000,
+        imagen: '../content/img/galeria1 (16).jpg',
         cantidad: 1
     },
     {
         id: 3,
-        nombre: 'Plato 3',
+        nombre: 'Bowl mixto',
         precio: 78000,
-        imagen: '../content/img/klara-avsenik-CYJP0T5-6xs-unsplash.jpg',
+        imagen: '../content/img/ralph-ravi-kayden-zTap5OUPDAE-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 4,
-        nombre: 'Plato 4',
-        precio: 46000,
+        nombre: 'Tasa de cafe',
+        precio: 6000,
         imagen: '../content/img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 5,
-        nombre: 'Plato 5',
-        precio: 53000,
+        nombre: 'Ensalada de Algas',
+        precio: 32000,
         imagen: '../content/img/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 6,
-        nombre: 'Plato 6',
-        precio: 39000,
+        nombre: 'Ensalada de Quinoa',
+        precio: 29000,
         imagen: '../content/img/hermes-rivera-k-sTTFdcZek-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 7,
-        nombre: 'Plato 7',
-        precio: 78000,
+        nombre: 'Copa chocolate',
+        precio: 18000,
         imagen: '../content/img/klara-avsenik-CYJP0T5-6xs-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 8,
-        nombre: 'Plato 8',
-        precio: 46000,
-        imagen: '../content/img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg',
+        nombre: 'Wrap de falafel',
+        precio: 56000,
+        imagen: '../content/img/cocobols-zW8wA4QwS2M-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 9,
-        nombre: 'Plato 9',
-        precio: 53000,
-        imagen: '../content/img/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg',
+        nombre: 'Coctel de granada',
+        precio: 13000,
+        imagen: '../content/img/galeria1 (5).jpg',
         cantidad: 1
     },
     {
         id: 10,
-        nombre: 'Plato 10',
-        precio: 39000,
-        imagen: '../content/img/hermes-rivera-k-sTTFdcZek-unsplash.jpg',
+        nombre: 'Margarita',
+        precio: 25000,
+        imagen: '../content/img/galeria1 (7).jpg',
         cantidad: 1
     },
     {
         id: 11,
-        nombre: 'Plato 11',
-        precio: 78000,
-        imagen: '../content/img/klara-avsenik-CYJP0T5-6xs-unsplash.jpg',
+        nombre: 'Sopa de Quinoa Tofu y Verduras',
+        precio: 29000,
+        imagen: '../content/img/galeria1 (1).jpg',
         cantidad: 1
     },
     {
         id: 12,
-        nombre: 'Plato 12',
+        nombre: 'Sushi',
         precio: 46000,
-        imagen: '../content/img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg',
+        imagen: '../content/img/abillion-i4jrjvPQCXQ-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 13,
-        nombre: 'Plato 13',
-        precio: 53000,
-        imagen: '../content/img/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg',
+        nombre: 'Bowl win',
+        precio: 33000,
+        imagen: '../content/img/sonny-mauricio-yhc4pSbl01A-unsplash-removebg-preview.png',
         cantidad: 1
     },
     {
         id: 14,
-        nombre: 'Plato 14',
-        precio: 39000,
-        imagen: '../content/img/hermes-rivera-k-sTTFdcZek-unsplash.jpg',
+        nombre: 'Torta Completa 10 porciones',
+        precio: 86000,
+        imagen: '../content/img/ruth-georgiev-dvmiNXMh9d8-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 15,
-        nombre: 'Plato 15',
-        precio: 78000,
-        imagen: '../content/img/klara-avsenik-CYJP0T5-6xs-unsplash.jpg',
+        nombre: 'Torta de cacao porción',
+        precio: 18000,
+        imagen: '../content/img/maddi-bazzocco-uthyJYMUkSA-unsplash.jpg',
         cantidad: 1
     },
     {
         id: 16,
-        nombre: 'Plato 16',
-        precio: 46000,
-        imagen: '../content/img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg',
+        nombre: 'burrito vegetal',
+        precio: 26000,
+        imagen: '../content/img/galeria1 (19).jpg',
         cantidad: 1
     },
     {
         id: 17,
-        nombre: 'Plato 17',
-        precio: 53000,
-        imagen: '../content/img/hermes-rivera-OzBLe_Eg1mg-unsplash.jpg',
+        nombre: 'Torta de Zanahoria porcion',
+        precio: 16000,
+        imagen: '../content/img/galeria1 (9).jpg',
         cantidad: 1
     },
     {
         id: 18,
-        nombre: 'Plato 18',
-        precio: 39000,
-        imagen: '../content/img/hermes-rivera-k-sTTFdcZek-unsplash.jpg',
+        nombre: 'Muffin',
+        precio: 9000,
+        imagen: '../content/img/galeria1 (10).jpg',
         cantidad: 1
     },
     {
         id: 19,
-        nombre: 'Plato 19',
-        precio: 78000,
-        imagen: '../content/img/klara-avsenik-CYJP0T5-6xs-unsplash.jpg',
+        nombre: 'Crepes con fruta',
+        precio: 18000,
+        imagen: '../content/img/toa-heftiba-MSxw2vpQzx4-unsplash-removebg-preview.png',
         cantidad: 1
     },
     
@@ -364,19 +363,25 @@ cancelar.addEventListener("click", (e)=>{
     mostrarTotal();
 })
 
-terminarCompra.addEventListener("click", (e)=>{
+/* terminarCompra.addEventListener("click", (e)=>{
     e.preventDefault();
     modalconfirm.classList.toggle("mostar--confirm");
     modalTotal.classList.toggle("modal--mostrar");
     mostrarTotal();
 
 })
-
+ */
 cerrarConfirm.addEventListener("click", (e)=>{
     modalconfirm.classList.toggle("mostar--confirm");
     carritoP.length = [];
     
 })
+
+
+
+
+
+
 
 
 

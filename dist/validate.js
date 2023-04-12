@@ -37,7 +37,7 @@ class Validate{
     }
 
     validDate(values){
-        if (values.value.length == 0){
+        if (values.value == " "){
             return false;
         }
         else{
@@ -45,14 +45,39 @@ class Validate{
         }
     }
 
-    validDate(values){
-        if (values.value.length == 0){
+    validTime(values){
+        if (values.value == " "){
             return false;
         }
         else{
             return true;
         }
+    
     }
+
+    validcvc(values) {
+        const cvc = /^([0-9]{3})$/g;
+        const respuesta = values.match(cvc) ? true : false;
+        return respuesta;
+    }
+
+    validTar(values){
+        const TelRX = /^([0-9]{16})$/g;
+        
+        //aqui comparamos el valor con el patron creado 
+        const respuesta = values.match(TelRX) ? true : false;
+        //devuelve true o false
+        return respuesta;
+    }
+
+    validExp(values) {
+        const Exp = /^([0-9]{2})$/g;
+        const respuesta = values.match(Exp) ? true : false;
+        return respuesta;
+    }
+
+
+    
 
     validform = (objeto) => {
         //tomar los valores del objeto, se convierte en un arreglo 
