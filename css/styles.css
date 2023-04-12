@@ -2694,7 +2694,7 @@
 /*MEDIA QUERY*/
 @media (min-width: 300px) {
 
-    /* --------------------------- MENU VEGANO ----------------------------------- */
+    /* --------------------------- HOME VEGANO ----------------------------------- */
  .bodyV{
     width: 100%;
  }
@@ -2761,11 +2761,107 @@
 .oferta_card img {
     width: 100%;
 }
+
+ /* --------------------------- MENU VEGANO ----------------------------------- */
+
+ .section1MV>h2 {
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.section1MV>p{
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.section2MV{
+    display: block;
+} 
+
+.section2MV .imgMV{
+    width: 100%;
+}
+
+.contenidoMV {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contenidoMV>h2{
+    text-align: center;
+}
+
+.section3MV{
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+}
+
+.nombrePMV {
+    margin: auto 11px;
+}
+
+.nombrePMV>a {
+    margin: auto 11px;
+}
+
+/* GALERIA */
+
+.section1GV{
+    font-size: 40px;
+}
+.section3GV>h2{
+    font-size: 20px;
+}
+
+.section3GV{
+    grid-template-columns: 1fr 1fr;
+}
+
+.section4GV{
+    grid-template-columns: 1fr 1fr;
+}
+
+/* RESERVAS  */
+
+.contenedorClima{
+    flex-wrap: wrap;
+}
+
+.FraseClima{
+    width: auto;
+    margin-top: 100%;
+} 
+
+.caja1, .caja2, .caja3, .caja4{
+margin-bottom: 10px;
+}
+
+.contenedorReserva{
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorReserva article{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.alertar{
+    width: auto;
+    left: calc(100vw - 100%);
+}
+
+/* CARRITO */
+
+.contenedorC{
+    width: 70%;;
+}
+
+
 }
 
 @media (min-width: 576px) {
 
-    /* --------------------------- MENU VEGANO ----------------------------------- */
+    /* --------------------------- HOME VEGANO ----------------------------------- */
  .bodyV{
     width: 100%;
  }
@@ -2806,6 +2902,14 @@
 .oferta_card img {
     width: 100%;
 }
+
+/* RESERVAS */
+
+.FraseClima{
+    width: auto;
+    margin-top: 50%;
+} 
+
 }
 
 
@@ -2839,7 +2943,7 @@
 }
 
 .containerHV{
-    flex-direction: column;
+    display: block;
 }
 .tittle_container{
     margin: auto;
@@ -2851,6 +2955,72 @@
 
 .oferta_card img {
     width: 100%;
+}
+
+/* MENU VEGANO  */
+
+.section3MV{
+    grid-template-columns: 1fr 1FR;
+    margin-bottom: 10px;
+}
+.section2MV .imgMV{
+    width: 50%;
+}
+
+.contenidoMV {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section2MV{
+    display: flex;
+}
+
+
+/* GALERIA */
+
+.section1GV{
+    font-size: 60px;
+}
+.section3GV>h2{
+    font-size: 20px;
+}
+
+.section3GV{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section4GV{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* RESERVAS */
+
+.contenedorReserva{
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedorReserva article{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.alertar{
+    width: auto;
+    left: calc(100vw - 80%);
+}
+
+.FraseClima{
+    width: auto;
+    margin-top: 20%;
+} 
+
+/* CARRITO */
+
+.contenedorC{
+    width: 40%;;
 }
 
 }
@@ -2905,7 +3075,17 @@
             height: 400px;
             width: 400px;
         }
+
+        .FraseClima {
+            width: auto;
+            margin-top: 5%;
         }
+
+        .alertar {
+            width: auto;
+            left: calc(100vw - 75%);
+        }
+    }
         
     
 @media (min-width: 1200px) {
@@ -3003,5 +3183,13 @@
     .oferta_card img{
         width: 28.5vw;
     }
+
+
+    /* RESERVAS */
+
+    .alertar {
+        left: calc(100vw - 70%);
+    }
+
 
 }
