@@ -2692,1305 +2692,302 @@
 
 
 /*MEDIA QUERY*/
+@media (min-width: 300px) {
 
-@media(min-width: 768px) and (max-width: 1000px) {
+    /* --------------------------- MENU VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+ }
+ .nav_vegan{
+    display: none;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHV2{
+    width: 160px;
+    height: 110px;
+}
+
+.ofertaHV hr{
+    width: auto;
+}
+
+.subtitleHV{
+    font-size: 20px;
+}
+
+.titles{
+    padding-right: 20px;
+}
+
+.containerHV{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+}
+
+@media (min-width: 576px) {
+
+    /* --------------------------- MENU VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+ }
+ .nav_vegan{
+    display: none;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 220px;
+    height: 220px;
+
+}
+.imgHV2{
+    width: 250px;
+    height: 150px;
+}
+
+.containerHV{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+}
+
+
+@media (min-width: 768px) {
+
+        /* --------------------------- MENU VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+ }
+ .nav_vegan{
+    display: none;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 220px;
+    height: 220px;
+
+}
+.imgHV2{
+    width: 250px;
+    height: 150px;
+}
+
+.containerHV{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+
+}
+
+
+@media (min-width: 992px) {
     
-    /* ------------------ INDEX -------------------- */
-    .sectionIndex{
-        margin: 50px;
-        display:flex;
-    }
+        /* --------------------------- MENU VEGANO ----------------------------------- */
+        .nav_vegan{
+            display: flex;
+         }
 
-    .botonesIndex{
-        display: flex;
-    }
+        .oferta_card img {
+            width: 100%;
+            
+        }
+        
+        .subtitleHV{
+            text-align: center;
+        }
+        
+        .oferta_card >p{
+            text-align: center;
+        }
+        
+        .oferta_card >b{
+            display: block;
+            text-align: center;
+        
+        }
+        .oferta_card >a{
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-top: 20px;
+        
+        }
+
+        .oferta_containerHV{
+            display: flex;
+        } 
     
-    .fondo2{
-        width: 50%;
-    }
+        .oferta_card img{
+            width: 28.5vw;
+        }
 
-    .sectionIndex h1{
-       font-size: 70px;
-    }
-
-    .img2{  
-        padding-left: 70px;
-    }
-
-    .img1{
-        width: 300px;
-        height: 300px;
-        top: 80px;
-        left: 60px;
-    }
-
-    .iconoIndex{
-        margin-top: 700px;
-        left: 100px;
-        z-index: 100;
-    }
-
-    .sectionIndex input{
-        font-size: 31px;
-    }
-
-    /* ------------------ LOGIN -------------------- */
-    .formulario{
-        height: 70%;
-        margin-top: 100px;
-    }
-
-    .container-form{
-       margin-right: 100px;
-    }
-
-
-
-    /* ----------------------------HOME VEGANO ----------------------------------- */
-    .bodyV{
-        width: 100vw;
-    } 
-
-    .tittle_container{
-        margin: auto;
-    }
-
-    .home_headerV{
-        height: 5vh;
-        width: 100vw;
-    }
-
-    .iconoHV{
-        height: 65px;
-    }
-
-    .dato .menu {
-        font-size: 20px;
-    }
-
-    .dato{
-        margin: 7px;
-    }
-    .user{
-        font-size: 20px;
-    }
-
-    .Home_slider{
-        height: 30vh;
-    }
-    .slider_img{
-        height: 30vh;
-    }
-
-    .especialidades>h1{
-        font-size: 20px;
-    }
-
-    .containerHV{
-        display: block;
-    }
-
-    .img_container {
-        margin: auto;
-        justify-content: center;
-        width: 100px;
-    }
-
-
-    .imgHV{
-        height: 250px;
-    }
-    .imgHV2{
-        height: 175px;
-    }
-
-    .conoceHV>h2{
-        font-size: 40px;
-        padding-top: 12%;
-        margin-bottom: 100px;
-    }
-
-    .ofertaHV hr{
-        width: auto;
-    }
-
-    .oferta_containerHV{
-        display: block;
-    }
-
-    .oferta_card img{
-        width: 90vw;
-    }
-
-    .oferta_card>a{
-        margin-left: 500px;
-    }
-
-    .oferta_card>h3{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .oferta_card >p{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .card_hover{
-        width: 90vw;
-        bottom: auto;
-        top: 1490px;        
-    }
-
-    .oferta_card>b{
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .sabor_title{
-        font-size: 50px;
-        padding-top: 30%;
+        .oferta_containerHV{
+            flex-wrap: nowrap;
+        }
         
-    }
-
-    .testimonios >hr{
-        width: 55vw;
-    }
-
-    .lugarHV>hr{
-        width: auto;
-    }
-
-    .lugarHV .lugar_img{
-        width: 400px;
-    } 
-
-    .redes{
-        font-size: 28px;
-    }
-
-
-    /* ----------------------------------- GALERIA --------------------------------- */
-    .section3GV {
-        width: 85%;
-    }
-
-    .section3GV>img{
-        height: 32vh !important;
-    }
-
-    .section4GV{
-        height: 42vh !important;
-    }
-
-    .section4GV>img{
-        height: 42vh !important;
-    }
-    /* ----------------------------- MENU ---------------------------------------- */
-
-    .section2MV .imgMV{
-        width: 50vw !important;
-    }
-
-    .nombrePMV>a{
-        padding: 0 !important;
-    }
-
-    .contenidoMV>h2{
+        .lugarHV .lugar_img{
+            height: 400px;
+            width: 400px;
+        }
+        }
         
-        text-align: center;
-    }
-
-    /*------------------------------- RESERVAS ----------------------------------  */
-    .contenedorClima {
-        height: 25vh;
-        gap: 20px;
-    }
-
-    .contenedorReserva article {
-        height: 35vh;
-    }
-
-    .infoPersona{
-        width: auto;
-    }
-
-    /* -------------------------------- CARRITO --------------------------------------- */
-
-    .alerta{
-        width: auto;
-        left: calc(100vw - 75%);
-    }
-
-    .right{
-        width: auto;
-    }
-
-    .modalTotal{
-        display: inline-block;
-    }
-
-    .modalBodyT{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .left{
-        width: auto;
-    }
-
-    .contenedorC{
-        width: 40vw;
-        height: 50vh;
-    }
-
-    .cardC_body{
-        height: auto;
-        text-align: center;
-    }
-
-
-    .cardC_title, .cardC_text, .btnCarrito {
-      margin-left: 0;
-    }
-
-  }
-  
-  @media(min-width: 680px) and (max-width: 767px) {
-   
-    /* ------------------ INDEX -------------------- */
-    .sectionIndex{
-        margin: 20px;
-        display:flex;
-    }
-    .fondo2{
-        width: 500px;
-    }
-
-    .botonesIndex{
-        display: flex;
-    }
     
-    .sectionIndex h1{
-        width: 300px;
-       font-size: 50px;
-        margin-left: 40px;
-    }
-
-    .img2{
-        width: 250px;
-    }
-
-    .img1{
-        width: 300px;
-        height: 300px;
-        top: 50px;
-        left: 50%;
-    }
-
-    .iconoIndex{
-        margin-top: 550px;
-        font-size: 40px;
-        left: 100px;
-        z-index: 100;
-    }
-
-    
-    /* ------------------ LOGIN -------------------- */
-    .formulario{
-        height: 80%;
-        margin-top: 30px;
-    }
-
-    .container-form{
-       margin-right: 100px;
-    }
-
-    .icono{
-        margin: 4px;
-        padding: 10px 11px;
-    }
-
-    .formulario>p{
-        margin: 5px;
-        padding-bottom: 10px;
-    }
-
-    .crear-cuenta{
-        font-size: 1.7rem;
-    }
-
-    .formulario input{
-        margin: auto;
-    }
-
-
-     /* ----------------------------HOME VEGANO ----------------------------------- */
-    .bodyV{
-        width: 100vw;
-    } 
-
-    .home_headerV{
-        height: 5vh;
-        width: 100vw;
-    }
-
-    .iconoHV{
-        height: 65px;
-    }
-
-    .dato .menu {
-        font-size: 20px;
-    }
-
-    .dato{
-        margin: 7px;
-    }
-    .user{
-        font-size: 20px;
-    }
-
-    .Home_slider{
-        height: 70vh;
-    }
-    .slider_img{
-        height: 70vh;
-    }
-
-    .especialidades>h1{
-        font-size: 20px;
-    }
-
-    .containerHV{
-        display: block;
-    }
-
-    .img_container{
-        justify-content: center;
-    }
-
-    .imgHV{
-        height: 250px;
-    }
-    .imgHV2{
-        height: 175px;
-    }
-
-    .conoceHV>h2{
-        font-size: 40px;
-        padding-top: 12%;
-        margin-bottom: 100px;
-    }
-
-    .ofertaHV hr{
-        width: auto;
-    }
-
-    .oferta_containerHV{
-        display: block;
-    }
-
-    .oferta_card img{
-        width: 90vw;
-    }
-
-    .oferta_card>a{
-        margin-left: 500px;
-    }
-
-    .oferta_card>h3{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .oferta_card >p{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .card_hover{
-        width: 90vw;
-        bottom: auto;
-        top: 1470px;
-    }
-
-    .oferta_card>b{
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .sabor_title{
-        font-size: 50px;
-        padding-top: 30%;
-        
-    }
-
-    .testimonios >hr{
-        width: 55vw;
-    }
-
-    .lugarHV>hr{
-        width: auto;
-    }
-
-    .lugarHV .lugar_img{
-        width: 400px;
-    } 
-
-    .redes{
-        font-size: 28px;
-    }
-
-    /* ----------------------------------- GALERIA --------------------------------- */
-    .section3GV {
-        width: 85%;
-    }
-
-    .section3GV>img{
-        height: 32vh !important;
-    }
-
-    .section4GV{
-        height: 42vh !important;
-    }
-
-    .section4GV>img{
-        height: 42vh !important;
-    }
-
-    /* ------------------------------ MENI ----------------------------------------- */
-    .section2MV .imgMV{
-        width: 50vw !important;
-    }
-
-    .nombrePMV>a{
-        padding: 0 !important;
-    }
-
-    .precioMV>span{
-        padding-right: 10px;
-    }
-    .contenidoMV>h2{
-        
-        text-align: center;
-    }
-
-    /* ------------------- CARRITO ------------------------------- */
-
-    .cardC_img{
-        margin-left: 10px;
-    }
-
-    /*------------------------------- RESERVAS ----------------------------------  */
-    .contenedorClima {
-        height: auto;
-        gap: 20px ;
-    }
-
-    .contenedorReserva article {
-        height: 40vh;
-    }
-
-    .infoPersona{
-        width: auto;
-    }
-
-     /* -------------------------------- CARRITO --------------------------------------- */
-
-     .alerta{
-        width: auto;
-        left: calc(100vw - 75%);
-    }
-
-    .right{
-        width: auto;
-    }
-
-    .modalTotal{
-        display: inline-block;
-    }
-
-    .modalBodyT{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .left{
-        width: auto;
-    }
-
-    .contenedorC{
-        width: 40vw;
-        height: 55vh;
-    }
-
-    .cardC_body{
-        height: auto;
-        text-align: center;
-    }
-
-
-    .cardC_title, .cardC_text, .btnCarrito {
-      margin-left: 0;
-    }
-  }
-  
-  @media(min-width: 580px) and (max-width: 679px){
-  
-    /* ------------------ INDEX -------------------- */
-    .sectionIndex{
-        margin: 20px;
-        display:flex;
-    }
-    .fondo2{
-        width: 500px;
-    }
-
-    .botonesIndex{
-        display: flex;
-    }
-    
-    .sectionIndex h1{
-        width: 300px;
-       font-size: 50px;
-        margin-left: 40px;
-    }
-
-    .img2{
-        width: 250px;
-    }
-
-    .img1{
-        width: 200px;
-        height: 200px;
-        top:25%;
-        left: 70%;
-    }
-
-    .iconoIndex{
-        margin-top: 450px;
-        font-size: 40px;
-        left: 100px;
-        z-index: 100;
-    }
-
-     /* ------------------ LOGIN -------------------- */
-     .formulario{
-        height: 80%;
-        margin-top: 30px;
-    }
-
-    .container-form{
-       margin-right: 100px;
-    }
-
-    .icono{
-        margin: 4px;
-        padding: 8px 9px;
-    }
-
-    .formulario>p{
-        margin: 5px;
-        padding-bottom: 10px;
-        font-size: 15px;
-    }
-
-    .crear-cuenta{
-        font-size: 1.7rem;
-    }
-
-    .formulario input{
-        margin: auto;
-        font-size: 15px;
-    }
-
-    .iconos{
-        margin: 10px;
-    }
-
-
-     /* ----------------------------HOME VEGANO ----------------------------------- */
-     .bodyV{
-        width: 100vw;
-    } 
-
-    .home_headerV{
-        height: 5vh;
-        width: 100vw;
-        justify-content: space-around;
-    }
-
-    .iconoHV{
-        height: 65px;
-    }
-
-    .dato .menu {
-        font-size: 15px;
-    }
-
-    .dato{
-        margin: 7px;
-    }
-    .user{
-        font-size: 20px;
-    }
-
-    .Home_slider{
-        height: 70vh;
-    }
-    .slider_img{
-        height: 70vh;
-    }
-
-    .especialidades>h1{
-        font-size: 20px;
-    }
-
-    .containerHV{
-        display: block;
-    }
-
-    .img_container{
-        justify-content: center;
-    }
-
-    .imgHV{
-        height: 250px;
-    }
-    .imgHV2{
-        height: 175px;
-    }
-
-    .conoceHV>h2{
-        font-size: 40px;
-        padding-top: 12%;
-        margin-bottom: 100px;
-    }
-
-    .ofertaHV hr{
-        width: auto;
-    }
-
-    .oferta_containerHV{
-        display: block;
-    }
-
-    .oferta_card img{
-        width: 90vw;
-    }
-
-    .oferta_card>a{
-        margin-left: 400px;
-    }
-
-    .oferta_card>h3{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .oferta_card >p{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .card_hover{
-        width: 90vw;
-        bottom: auto;
-        top: 1690px;
-    }
-
-    .oferta_card>b{
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .tittle_container{
-        margin: auto;
-    }
-
-
-    .sabor_title{
-        font-size: 50px;
-        padding-top: 30%;
-        
-    }
-
-    .testimonios >hr{
-        width: 55vw;
-    }
-
-    .lugarHV>hr{
-        width: auto;
-    }
-
-    .lugarHV .lugar_img{
-        width: 400px;
-    } 
-
-    .redes{
-        font-size: 28px;
-    }
-
-    /* ----------------------------------- GALERIA --------------------------------- */
-    .headerMV{
-        height: 10vh;
-        background-color: #F7FBF6;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .section3GV {
-        width: 85%;
-    }
-
-    .section3GV>img{
-        height: 32vh !important;
-    }
-
-    .section4GV{
-        height: 42vh !important;
-    }
-
-    .section4GV>img{
-        height: 42vh !important;
-    }
-
+@media (min-width: 1200px) {
     .nav_vegan{
-        margin: 0;
-    }
-
-    .datoMV .menuMV{
-        font-size: 15px !important;
-    }
-
-    /* ------------------------------ MENI ----------------------------------------- */
-    .section2MV .imgMV{
-        width: 50vw !important;
-    }
-
-    .nombrePMV>a{
-        padding: 0 !important;
-        background-color: transparent !important;
-        color: #70AF31 !important;
-    }
-
-    .nombrePMV{
-        font-size: 18px;
-        margin-left: 4%;
-    }
-
-    .precioMV>span{
-        padding-right: 10px;
-    }
-
-    .contenidoMV>h2{
-        font-size:25px ;
-        text-align: center;
-    }
-
-    .contenidoMV{
-        font-size: 15px;
-    }
-
-    .datoMV{
-        margin: 8px;
-    }
-
-
-     /* ------------------- CARRITO ------------------------------- */
-
-     .cardC_img{
-        margin-left: 10px;
-    }
-
-    /*------------------------------- RESERVAS ----------------------------------  */
-    .contenedorClima {
-        height: auto;
-        gap: 10px ;
-    }
-
-    .datoMR {
-        margin: 8px;
-       
-    }
-
-    .datoMR .menuMR{
-        font-size: 15px;
-    }
-
-    .contenedorReserva article {
-        height: 35vh;
-    }
-
-    .infoPersona{
-        width: auto;
-    }
-
-    .reservaSubtitulo{
-        font-size: 20px;
-    }
-
-    .caja4 input{
-        padding: 10px 0px;
-        border-radius: 10px;
-    }
-
-    .imgReserva{
-        margin: 0;
-        width: 130px;
-    }
-
-    .infoPersona, .infoNA, .infoTC{
-        padding: 10px;
-    }
-
-    .infoNA input{
-        margin: 0;
-    }
-
-    .infoNA label {
-        font-size: 17px;
-    }
-
-    .infoTC label {
-        font-size: 17px
-    } 
-
-    .infoTC input{
-        margin: 0;
-    }
-
-
-  }
-  
-  @media(min-width: 380px) and (max-width: 579px){
-  
-    /* ------------------ INDEX -------------------- */
-    .sectionIndex{
-        margin: 20px;
-        display:flex;
-    }
-    .fondo2{
-        width: 500px;
-    }
-
-    .botonesIndex{
-        font-size: 20px;
         display: flex;
+     }
+
+    .img_container{
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dato .menu {
+        font-size: 25px;
     }
     
-    .sectionIndex h1{
-        width: 50%;
-       font-size: 20px; 
-       margin-bottom: 20px;
+     .oferta_containerHV{
+        flex-wrap: nowrap;
     }
-
-    .sectionIndex h2{
-        width: 50%;
-       font-size: 20px;
-
+    
+    .imgHV {
+        width: 220px;
+        height: 220px;
+    
     }
-
-    .img2{
+    .imgHV2{
         width: 250px;
-    }
-
-    .img1 {
-        width: 150px;
         height: 150px;
-        top: 15%;
-        left: 50%;
     }
-
-    .iconoIndex {
-        margin-top: 400px;
-        font-size: 30px;
-        left: 56px;
-        z-index: 100;
-    }   
-
-    .sectionIndex input{
-        padding: 15px 20px;
-        font-size: 17px;
-    }
-
-    .articleIndex{
-        display:flex;
+    
+    .containerHV{
         flex-direction: column;
-        align-items: center;
     }
-
-    /* ------------------ LOGIN -------------------- */
-    .formulario{
-        width: 57%;
-        position: relative;
-        height: 90%;
-        margin-top: 30px;
-    }
-
-    .container-form{
-      margin-left: 80px;
-       margin-right: 70px;
-    }
-
-    .icono{
-        margin: 4px;
-        padding: 8px 9px;
-        font-size: 17px;
-    }
-
-    .formulario>p{
-        margin: 5px;
-        padding-bottom: 10px;
-        font-size: 15px;
-    }
-
-    .crear-cuenta{
-        font-size: 20px;
-    }
-
-    .formulario input{
-        margin: auto;
-        font-size: 13px;
-    }
-
-    .iconos{
-        margin: 10px;
-        
-    }
-
-    .mensaje>h2{
-        font-size: 20px;
-    }
-
-    .mensaje>p{
-        font-size: 15px;
-    }
-
-    .btn{
-        font-size: 15px;
-        padding: 6px 8px;
-    }
-
-
-     /* ----------------------------HOME VEGANO ----------------------------------- */
-     .bodyV{
-        width: 137vw;
-    } 
-
-    .home_headerV{
-        height: 5vh;
-        width: 137vw;
-        justify-content: space-around;
-    }
-
-    .dahl{
-        width: 50vw !important;
-    }
-
-    .iconoHV{
-        height: 40px;
-    }
-
-    .dato .menu {
-        font-size: 15px;
-    }
-
-    .dato{
-        margin: 6px;
-    }
-    .user{
-        font-size: 20px;
-    }
-
-    .Home_slider{
-        height: 70vh;
-    }
-    .slider_img{
-        height: 70vh;
-    }
-
     .tittle_container{
         margin: auto;
     }
-
-    .especialidades>h1{
-        font-size: 20px;
-    }
-
-    .containerHV{
-        display: block;
-    }
-
-    .img_container{
-        justify-content: center;
-    }
-
-    .imgHV{
-        height: 250px;
-    }
-    .imgHV2{
-        height: 175px;
-    }
-
-    .conoceHV>h2{
-        font-size: 40px;
-        padding-top: 12%;
-        margin-bottom: 100px;
-    }
-
     
-
-    .ofertaHV hr{
-        width: auto;
-    }
-
     .oferta_containerHV{
         display: block;
     }
+    
+    .oferta_card img {
+        width: 100%;
+        
+    }
+    
+    .subtitleHV{
+        text-align: center;
+    }
+    
+    .oferta_card >p{
+        text-align: center;
+    }
+    
+    .oferta_card >b{
+        display: block;
+        text-align: center;
+    
+    }
+    .oferta_card >a{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 20px;
+    
+    }
+    
+    .lugarHV .lugar_img{
+        height: 400px;
+        width: 400px;
+    }
+
+    .iconoHV{
+        height: 120px;
+    }
+
+    .imgHV2{
+        width: 350px;
+        height: 200px;
+    }
+
+    .imgHV {
+        width: 280px;
+        height: 280px;
+    }
+    .containerHV{
+        flex-direction: row;
+    }
+
+    .oferta_containerHV{
+        display: flex;
+    } 
 
     .oferta_card img{
-        width: 120vw;
+        width: 28.5vw;
     }
 
-    .oferta_card>a{
-        margin-left: 300px;
-    }
-
-    .oferta_card>h3{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .oferta_card >p{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .card_hover{
-        width: 120vw;
-        bottom: auto;
-        top: 1633px;
-    }
-
-    .texto_test {
-        width: 130vw;
-    }
-
-    .oferta_card>b{
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .sabor_title{
-        font-size: 50px;
-        padding-top: 30%;
-        
-    }
-
-    .testimonios >hr{
-        width: 55vw;
-    }
-
-    .lugarHV>hr{
-        width: auto;
-    }
-
-    .lugarHV .lugar_img{
-        width: 400px;
-    } 
-
-    .redes{
-        font-size: 15px;
-    }
-
-    /* ----------------------------------- GALERIA --------------------------------- */
-    .bodyMV{
-        width: 145vw;
-    }
-
-    .headerMV{
-        width: 100vw;
-    }
-    .section3GV {
-        width: 85%;
-    }
-
-    .iconoMV{
-        margin: auto;
-        margin-left: 25px;
-    }
-
-    .datoMV {
-        margin: 8px;
-    }
-
-    .userMV{
-        font-size: 20px;    
-    } 
-
-    .section3GV>img{
-        height: 32vh !important;
-    }
-
-    .section4GV{
-        height: 42vh !important;
-    }
-
-    .section4GV>img{
-        height: 42vh !important;
-    }
-
-    .nav_vegan{
-        margin: 0;
-        padding: 0;
-    }
-
-    .datoMV .menuMV{
-        font-size: 17px !important;
-    }
-
-    .datoMV{
-        margin-right: 0px !important;
-    }
-
-
-    .section1GV{
-        font-size: 35px !important;
-    }
-
-     /* ------------------------------ MENI ----------------------------------------- */
-     .section2MV .imgMV{
-        width: 50vw !important;
-    }
-
-    .nombrePMV>a{
-        padding: 0 !important;
-        background-color: transparent !important;
-        color: #70AF31 !important;
-    }
-
-    .nombrePMV{
-        font-size: 18px;
-        margin-left: 4%;
-    }
-
-    .section2MV .imgMV {
-        height: auto;
-        width: 73vw !important;
-    }
-
-    .contenidoMV>h2 {
-        margin-top: 10px;
-        font-size: 33px;;
-    }
-
-    .contenidoMV>a{
-        margin-bottom: 10px;
-    }
-
-    .precioMV>span{
-        padding-right: 10px;
-    }
-
-     /* ------------------- CARRITO ------------------------------- */
-
-     .cardC_img{
-        margin-left: 10px;
-    }
-
-    .contenedorC{
-        width: 200px;
-    }
-
-    .iconoMV{
-        height: 70px; 
-    }
-
-    /*------------------------------- RESERVAS ----------------------------------  */
-
-
-    .contenedorClima {
-        height: auto;
-        display: inline-block;
-        margin-left: 100px;
-        
-    }
-
-    .contenedorReserva article {
-        height: 35vh;
-    }
-
-    .infoPersona{
-        width: auto;
-    }
-
-    .reservaSubtitulo{
-        font-size: 20px;
-    }
-
-    .caja4 input{
-        padding: 10px 0px;
-        border-radius: 10px;
-    }
-
-    .infoPersona, .infoNA, .infoTC{
-        padding: 10px;
-    }
-
-    .infoNA input{
-        margin-left: 47px;
-        margin-bottom: 10px;
-    }
-
-    .infoNA label {
-        font-size: 17px;
-    }
-
-    .infoTC label {
-        font-size: 17px
-    } 
-
-    .infoTC input{
-        margin-left: 60px;
-        margin-bottom: 10px;
-    }
-
-    .caja4{
-        width: 200px;
-    }
-
-    .caja1, .caja2, .caja3, .caja4{
-        margin-bottom: 10px;
-    }
-
-    .article2 input{
-        margin: 0;
-        padding: 0;
-    }
-
-    .time{
-        margin: 0;
-        padding: 0;
-    }
-
-    
-  }
-
-
-
-
-   
- 
-  
-
-
-
-
-
-
-
-
-
-
-
+}
