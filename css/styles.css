@@ -2701,6 +2701,20 @@
  .nav_vegan{
     display: none;
  }
+
+ .testimonios hr{
+    width: auto;
+ }
+
+ .lugarHV>hr {
+    width: auto;
+}
+
+.lugarHV .lugar_img{
+    width: 120px;
+    height: 120px;
+}
+
  .img_container{
     flex-wrap: wrap;
     align-items: center;
