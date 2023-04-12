@@ -77,3 +77,7 @@ logout.addEventListener('click', ()=>{
     alert('Hasta pronto!')
     window.location.href = './index.html'
 })
+
+
+
+

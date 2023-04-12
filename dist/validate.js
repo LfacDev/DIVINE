@@ -76,6 +76,12 @@ class Validate{
         return respuesta;
     }
 
+    validContra(values) {
+        const Exp = /^([0-9]{6})$/g;
+        const respuesta = values.match(Exp) ? true : false;
+        return respuesta;
+    }
+
 
     
 
