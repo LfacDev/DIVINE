@@ -24,6 +24,8 @@
 }
 
 
+
+
 .container-form{
     width: 90%;
     height: 90vh;
@@ -343,6 +345,11 @@
    color: #fff;
    text-decoration: none;
    transition: .3s;
+   padding-left: 4px;
+}
+
+.final{
+    opacity: 0;
 }
 
 .user:hover{
@@ -1646,7 +1653,7 @@
 
 .nombrePMT{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #CE2C49;
     font-size: 20px;
 }
@@ -1925,7 +1932,7 @@
 /*-------------- MODAL --------------*/
 .alerta{
     width: 40%;
-    background: #70AF31;
+    background: #937a4d71;
     position: fixed;
     top: calc(100vh - 95%);
     left: calc(100vw - 69%);
@@ -1973,7 +1980,7 @@
  .modalParrafo{
     margin: 50px;
     font-size: 30px;
-    color: #D93D59;
+    color: #937a4dc0;
     font-style: italic;
     font-weight: bold;
  }
@@ -1981,7 +1988,7 @@
  .modal-contenedor{
     width: 100%;
     height: 100%;
-    background-color: #D93D59;
+    background-color: #937a4dc0;
     display: flex;
     justify-content: center;
  }
@@ -2694,14 +2701,32 @@
 
 /*MEDIA QUERY*/
 @media (min-width: 300px) {
-
+    
     /* --------------------------- HOME VEGANO ----------------------------------- */
  .bodyV{
     width: 100%;
+    
  }
+ .headerMV{
+    height: 26%;
+ }
+
+ .home_headerV{
+    height: 26%;
+ }
+
+ .menu{
+    padding: 3px 2px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+ }
+
  .nav_vegan{
-    display: none;
+   flex-wrap: wrap;
+   justify-content: center;
  }
+
+
 
  .testimonios hr{
     width: auto;
@@ -2861,11 +2886,25 @@ margin-bottom: 10px;
 
 /* ---------------------------HOME CARNIVORO -------------------------- */
 
+
+ .headerMT{
+    height: 26%;
+ }
+
+ .menu{
+    padding: 3px 2px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+ }
+
+ 
+
 .bodyV{
     width: 100%;
  }
  .navMV{
-    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
  }
 
  .testimoniosT hr{
@@ -2934,7 +2973,13 @@ margin-bottom: 10px;
 
 
 /* ---------------------------------------- MENU CARNIVORO  */
+.headerHVT{
+    height: 26%;
+ }
 
+ .headerMVR{
+    height: 26%;
+ }
 
 .section1MT>h2 {
     font-size: 40px;
@@ -3040,9 +3085,7 @@ margin-bottom: 10px;
  .bodyV{
     width: 100%;
  }
- .nav_vegan{
-    display: none;
- }
+ 
  .img_container{
     flex-wrap: wrap;
     align-items: center;
@@ -3168,6 +3211,27 @@ margin-bottom: 10px;
  .bodyV{
     width: 100%;
  }
+
+ .headerMVR{
+    height: 10vh;
+ }
+
+ .headerHVT{
+    height: 10vh;
+ }
+
+ .headerMV{
+    height: 10vh;
+ }
+
+ .home_headerV{
+    height: 10vh;
+ }
+
+ .headerMT{
+    height: 10vh;
+ }
+
  .nav_vegan{
     display: flex;
  }
