@@ -1,0 +1,3947 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* PALETA DE COLORES */
+/* #70AF31 #fff #D93D59  #937a4d71 #42770c*/
+
+/************************************* LOGIN *******************************************/
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../content/img/galeria1\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.fi.fi-rs-house-chimney{
+    color: #fff;
+}
+
+.container-form{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bienvenido{
+    width: 45%;
+    display: flex;
+    align-items: center; /* poner el elemento en el centro del viewport */
+    text-align: center;
+    
+}
+
+.mensaje{
+    margin: 30px;
+
+}
+
+.mensaje>h2{
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+
+.mensaje>p{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+
+.btn{
+    padding: 20px 35px;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: #42770c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formulario{
+    width: 47%;
+    border-radius: 30px;
+    margin: 0 30px;
+    align-items: center;
+    text-align: center;
+    padding:25px 25px 0 25px;
+    background-color: rgba(59, 58, 58, 0.792);
+
+}
+
+.crear-cuenta {
+    font-size: 2.3rem;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.icono{
+    padding: 15px;
+    border: #fff solid 2px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.icono:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.formulario>p{
+    margin-top: 20px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.formulario input{
+    
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    padding: 20px; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+    color: #fff;
+}
+
+.formulario input[type="button"]{
+    margin-top: 50px;
+    border: #fff 2px solid;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.registrarse{
+    position: absolute; /* para que tome todo el ancho del padre */
+    opacity: 0; 
+    visibility: hidden; 
+    transition: ease 0.3s;
+}
+
+/* clases puestas con JS */
+.registrarse.active{
+    transition: ease 0.5s;
+    opacity: 1;
+    visibility: visible;
+} 
+
+.iniciar.active{
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+
+
+/*************************************** INDEX *****************************************/
+.bodyIndex{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../content/img/Abstract\ green\ painting\ background.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.mainIndex{
+    font-family: 'passion one', sans-serif;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fondo2{
+    width: 20%;
+    height: 100%;
+    background-image: url("../content/img/YURISA.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    order: 9;   
+}
+
+.sectionIndex{
+    width: 40%;
+    margin: 100px;   
+    align-items: center;
+    text-align: center; 
+    text-shadow: -3px 3px 4px rgba(0,0,0,0.62);
+}
+
+.sectionIndex h1{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.sectionIndex h2{
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.sectionIndex input{
+    font-family: 'passion one', sans-serif;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 25px 30px;
+    font-size: 30px;
+    border: none;
+    color: #70AF31;
+    cursor: pointer;
+    text-shadow: -2px 2px 2px rgba(0,0,0,0.20);
+    box-shadow: -11px 9px 16px 0px rgba(71,70,71,1);
+}
+
+.img2{
+    width: 500px;
+}
+
+
+
+.sectionIndex2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img1{
+    margin-top: 50%;
+    filter:drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+    width: 700px;
+    height: 700px;
+    z-index: 98;
+    position: relative;
+    right: 10rem;
+    order: 1;
+}
+
+.iconoIndex{
+    margin-top: 300px;
+    z-index: 97;
+    position: relative;
+    left: 15rem;
+    font-size: 60px;
+}
+
+.iconos .icono{
+    margin: 20px;
+}
+
+.iconoI{
+    margin: 20px;
+}
+
+.iconoI:hover{
+    color: #70AF31;
+    cursor: pointer;
+}
+
+
+/* clases con JS */
+
+.fondo2T{
+    transition: unset .3s;
+    background:url("../content/img/Download\ wallpaper\ 480x800\ red\,\ background\,\ texture\ nokia\ x\,\ x2\,\ xl\,\ 520\,\ 620\,\ 820\,\ samsung\ galaxy\ star\,\ ace\,\ asus\ zenfone\ 4\ hd\ background.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inputT{
+    color: #D93D59 !important; 
+}
+
+.IconoT:hover{
+    color:#D93D59
+}
+
+.img1T{
+    margin-top: 50%;
+    filter:drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+    width: 700px;
+    height: 700px;
+    z-index: 98;
+    position: relative;
+    right: 10rem;
+    order: 1;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario input[type=submit]{
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5a9;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.formulario input[type=submit]:hover{
+    
+    background-color: #fff;
+}
+
+
+/*************************************** HOME VEGANO ************************************/
+/*---------- BODY--------------- */
+.bodyV{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+/*------- HEADER - NAV -------------*/
+
+.home_headerV{
+    height: 10vh;
+    background-color: #70AF31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_vegan{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 40px;
+    align-items: center;
+}
+
+.iconoHV{
+    margin: 40px; 
+    height: 100px;
+}
+
+.user{
+   font-size: 35px;
+   color: #fff;
+   text-decoration: none;
+   transition: .3s;
+   padding-left: 4px;
+}
+
+.final{
+    opacity: 0;
+}
+
+.user:hover{
+    font-size: 40px;
+    
+ }
+
+.dato{
+    margin: 15px;
+    position: relative; /* porque usaremos una pseduoclase */
+}
+
+.dato .menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: all .3s;
+    
+}
+
+.menu:hover{
+    font-size:23px;
+    letter-spacing: 1.5px;
+}
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.dato::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #42770c;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 50%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.dato:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+
+/*----- SLIDER------ */
+
+/* tamaño contenedor */
+.Home_main{
+    width: 100%;
+}
+
+.Home_slider{
+    width: 90%;
+    height: auto;
+    background-color: rgb(17, 83, 141);
+    margin: 0 auto;
+    max-width: 120em;
+    overflow: hidden;
+   
+}
+
+.Contenedor_slider{
+    /* porque son 3 imagenes */
+    width: 300%;
+    /* para que las imagenes se pongan una a lado de la otra */
+    display: flex;
+    align-items: center;
+    /* transition */
+    transition: all .5s ease;
+    transform: translateX(0%);
+
+}
+
+.slider_img{
+    background-color: #70AF31;
+    /* calcular el tamaño que debera cada imagen */
+    width: calc(100% / 3);
+    height: 570px;
+    object-fit: cover; /* ajustar la imagen al contenedor */
+    
+}
+
+.puntos{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+}
+
+.punto{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #719053;
+}
+
+.activo{
+    background-color: #70AF31;
+}
+
+/*---- SECCION ESPECIALIDADES----- */  
+
+.especialidades{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.especialidades>h1{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.containerHV{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img_container{
+    display: flex;
+    align-items: center;
+   
+}
+
+.imgHV2{
+    width: 450px;
+    height: 300px;
+    transition: all .5s ease ;
+}
+
+.imgHV2:hover{
+    width: 500px;
+    height: 350px;
+}
+
+.imgHV{
+    width: 380px;
+    height: 380px;
+    transition: all .5s ease;
+}
+
+.imgHV:hover{
+    width: 430px;
+    height: 430px;
+}
+
+.tittle_container{
+    width: 100%;
+    display: block;
+    overflow: hidden; /* para que los demas parrafos se escondan */ 
+    margin: 70px;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.parrafo_container{
+    display: flex;
+    width: 300%;
+    transition: all .5s ease;
+    transform: translateX(0%);
+    overflow: hidden;
+}
+
+.parrafo_container>p{
+    width: calc(300%/3);
+    font-weight: 300;
+    text-align: justify;
+}
+
+.subtitleHV{
+    position: relative; /* porque usaremos una pseduoclase */
+    cursor: pointer;
+}
+
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.subtitleHV::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #70AF31;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 100%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.subtitleHV:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+/* clase con JS */
+
+.border{
+    border-left: 3px solid #70AF31;
+}
+
+
+/*------- CONOCE NUESTRO MENU -------*/
+
+.conoceHV{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 450px;
+    background-image: url(../content/img/edgar-castrejon-J04BD4ysoh8-unsplash-modified.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+}
+
+.conoceHV>h2{
+    color: #fff;
+    padding-top: 7%;
+    font-size: 60px;
+    letter-spacing: 2px; 
+    margin-bottom: 150px;
+}
+
+.enlaceHV{
+    padding: 20px 80px; 
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #70AF31;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all .5s;
+     border: 3px solid #45a924;
+     margin-bottom: 10px;
+}
+
+.enlaceHV:hover{
+    letter-spacing: 5px;
+    color: #6eff3e;
+    border: solid 3px #6eff3e;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #6eff3e ;
+    
+}
+
+/*------- OFERTAS --------- */
+
+.ofertaHV{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.ofertaHV .title_oferta{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.ofertaHV hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #70AF31;
+    margin-bottom: 40px;
+}
+
+.oferta_containerHV{
+    display: flex;
+    gap: 20px; 
+}
+
+.oferta_card{
+    margin-bottom: 50px;
+}
+
+.card_hover{
+    top: 192%;
+    width: 28.5vw;
+    height: 60vh;
+    background-color: #1f3d4738;
+    position: absolute;    
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.card_hover:hover{
+    position: absolute;
+    bottom: -203.1%;
+    opacity: 1;
+}
+
+.titulo_hover{
+    font-size: 50px;
+}
+
+.texto_hover{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.oferta_card img{
+    width: 28.5vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+.oferta_card>h3{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.oferta_card >p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.oferta_card> a{
+    margin-left: 180px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #70AF31;
+    border: 1px solid #45a924;
+    transition: all .4s;
+}
+
+.oferta_card>a:hover{
+    letter-spacing: 1.7px;
+    color: #45a924;
+    border: solid 3px #5ad631;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #5ad631 ;
+}
+
+/* --------CONOCE NUESTRO SABOR ---------- */
+
+.saborHV{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 400px;
+    background-image: url(../content/img/ella-olsson-2IxTgsgFi-s-unsplash-modified.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+}
+
+.sabor_title{
+    color: #fff;
+    padding-top: 14%;
+    font-size: 60px;
+    letter-spacing: 2px; 
+    margin-bottom: 150px;
+}
+
+/*-------- TESTIMONIOS -----------*/
+
+.testimonios .title_oferta{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.testimonios hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #70AF31;
+    margin-bottom: 40px;
+}
+
+.slider_test{
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #F7FBF6;
+    box-shadow: 10px 10px 50px 8px rgba(0,0,0,0.14);
+    overflow:hidden ; /* para que se escondan los demas comentarios */
+}
+
+.info_test{
+    display: flex;
+    justify-content: center;
+}
+
+.info_test>a{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000
+}
+
+.info_test .nombre_test{
+    margin-top: 15px;
+}
+
+.slider_test>h3 p{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.texto_test{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px 20px 20px;
+    align-items: center;
+}
+
+.texto_test>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px 8px rgba(0,0,0,0.14);
+}
+
+.test_container{
+    display: flex;
+    width: 300%;
+    transition: all .5s ease;
+    transform: translateX(0%);
+
+}
+
+.test_container>p{
+    width: calc(300% / 3);
+    font-weight: 300;
+    text-align: justify;
+}
+
+.lugarHV{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lugarHV>h2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.lugarHV>hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #70AF31;
+    margin-bottom: 40px;
+}
+
+.lugarHV .lugar_img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+/*-------------- FOOTER ------------*/
+
+.footerHV{
+    display: flex;
+    justify-content: space-around;
+    background-color: #70AF31;
+    color: #fff;
+    
+}
+
+.footerHV .direccion, .telefonos, .redes{
+    margin-top: 15px;
+}
+
+.direccion h3 p{
+    padding: 5px;
+}
+
+.telefonos pre, h3{
+    padding: 5px;
+}
+
+.redes{
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.redes>a{
+    padding: 15px;
+    color: #fff;
+}
+
+
+
+/*************************************** HOME TRADICIONAL ************************************/
+/*---------- BODY--------------- */
+.bodyT{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+/*------- HEADER - NAV -------------*/
+
+.headerHVT{
+    height: 10vh;
+    background-color: #CE2C49;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.iconoHV{
+    margin: 40px; 
+    height: 100px;
+}
+
+
+.datoT{
+    margin: 15px;
+    position: relative; /* porque usaremos una pseduoclase */
+}
+
+.datoT.inicioT{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #5f1220 !important;
+ }
+
+.datoT .menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: all .3s;
+    
+}
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.datoT::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #5f1220;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 50%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.datoT:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+
+
+/*----- SLIDER------ */
+
+/* tamaño contenedor */
+
+
+.Home_sliderT{
+    width: 90%;
+    height: 625px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    max-width: 120em;
+    overflow: hidden;
+   
+}
+
+.puntoT{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #CE2C49;
+}
+
+.activoT{
+    background-color: #5f1220;
+}
+
+/*---- SECCION ESPECIALIDADES----- */  
+
+.containerHT{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgHT2{
+    width: 200px;
+    height: 200px;
+    margin:15px;
+    transition: all .5s ease;
+    
+}
+
+.imgHT2:hover{
+    width: 250px;
+    height: 250px;
+    margin:15px;
+}
+
+.imgHT{
+    width: 200px;
+    height: 200px;
+    margin:15px;
+    transition: all .5s ease;
+}
+
+.imgHT:hover{
+    width: 250px;
+    height: 250px;
+    margin:15px;
+}
+
+.subtitleHT{
+    position: relative; /* porque usaremos una pseduoclase */
+    cursor: pointer;
+}
+
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.subtitleHT::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #CE2C49;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 100%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.subtitleHT:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+/* clase con JS */
+
+.border{
+    border-left: 3px solid #5f1220;
+}
+
+
+/*------- CONOCE NUESTRO MENU -------*/
+
+.conoceHT{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 450px;
+    background-image: url(../content/img/vitor-monthay-Dj2CFvptGRk-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+}
+
+.conoceHT>h2{
+    color: #fff;
+    padding-top: 7%;
+    font-size: 60px;
+    letter-spacing: 2px; 
+    margin-bottom: 150px;
+}
+
+.enlaceHT{
+    padding: 20px 80px; 
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #CE2C49;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all .5s;
+     border: 3px solid #5f1220;
+     margin-bottom: 10px;
+}
+
+.enlaceHT:hover{
+    letter-spacing: 5px;
+    color: #ff483e;
+    border: solid 3px #ff483e;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #ff483e ;
+    
+}
+
+/*------- OFERTAS --------- */
+
+.ofertaHT{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.ofertaHT .title_oferta{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.ofertaHT hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #CE2C49;
+    margin-bottom: 40px;
+}
+
+
+.oferta_cardT img{
+    width: 28.5vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+.oferta_cardT>h3{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.oferta_cardT >p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.oferta_cardT> a{
+    margin-left: 180px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #CE2C49;
+    border: 1px solid #CE2C49;
+    transition: all .4s;
+}
+
+.oferta_cardT>a:hover{
+    letter-spacing: 1.7px;
+    color: #ff483e;
+    border: solid 3px #ff483e;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #ff483e ;
+}
+
+/* --------CONOCE NUESTRO SABOR ---------- */
+
+.saborHVT{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 400px;
+    background-image: url(../content/img/mae-mu-GIUc-l74UT8-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+}
+
+
+/*-------- TESTIMONIOS -----------*/
+
+.testimoniosT .title_oferta{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.testimoniosT hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #CE2C49;
+    margin-bottom: 40px;
+}
+
+
+
+.lugarHT{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lugarHT>h2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.lugarHT>hr{
+    width: 500px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #CE2C49;
+    margin-bottom: 40px;
+}
+
+.lugarHT .lugar_img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+/*-------------- FOOTER ------------*/
+
+.footerHT{
+    display: flex;
+    justify-content: space-around;
+    background-color: #CE2C49;
+    color: #fff;
+    
+}
+
+.footerHT .direccion, .telefonos, .redes{
+    margin-top: 15px;
+}
+
+.direccion h3 p{
+    padding: 5px;
+}
+
+.telefonos pre, h3{
+    padding: 5px;
+}
+
+.redes{
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.redes>a{
+    padding: 15px;
+    color: #fff;
+}
+
+
+/************************************ MENU VEGANO **************************************/
+/*---------- BODY--------------- */
+.bodyMV{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*------- HEADER - NAV -------------*/
+
+.headerMV{
+    height: 10vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navMV{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 40px;
+    align-items: center;
+}
+
+.iconoMV{
+    margin: 40px; 
+    height: 100px;
+}
+
+.userMV{
+   font-size: 35px;
+   color: #70AF31;
+   text-decoration: none;
+   transition: .3s;
+}
+
+.userMV:hover{
+    font-size: 40px;
+    
+ }
+
+.datoMV{
+    margin: 15px;
+    position: relative; /* porque usaremos una pseduoclase */
+}
+
+.datoMV .menuMV{
+    text-decoration: none;
+    font-size: 20px;
+    color: #70AF31;
+    transition: all .3s;
+    
+}
+
+.menuMV:hover{
+    font-size:23px;
+    letter-spacing: 1.5px;
+}
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.datoMV::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #42770c;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 50%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.datoMV:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+/* -------- SECTION 1----------- */
+
+.section1MV{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../content/img/food-3433302_1280.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.section1MV>h2 p{
+    margin: 15px;
+}
+
+.section1MV>h2{
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+
+.section1MV>h3 p{
+    font-size: 30px;
+}
+
+/* -------- SECTION 2----------- */
+
+.section2MV{
+    width: 100%;
+    display: flex;
+}
+
+.section2MV .imgMV{
+    width: 75.8vw;
+    height: 350px;
+    object-fit: cover;
+}
+
+.der{
+    flex-direction: row-reverse;
+}
+
+.contenidoMV{
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoMV>h2{
+    font-size: 40px;
+    color: #70AF31;
+}
+
+.contenidoMV>p{
+    font-size: 1.5em;
+    margin: 35px;
+}
+
+.contenidoMV>a{
+    text-decoration: none;
+    background-color: #70AF31;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.contenidoMV>a:hover{
+    
+    color: #45a924;
+    border: solid 3px #5ad631;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #5ad631 ;
+}
+
+.section3MV{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.PlatosMV{
+    margin-top: 40px;
+}
+
+.infoPMV{
+    margin-top: 20px;
+}
+
+.section3MV h2{
+    color: #70AF31;
+    text-align: center;
+}
+
+.nombrePMV{
+    display: flex;
+    justify-content: space-between;
+    color: #70AF31;
+    font-size: 20px;
+}
+
+.nombrePMV>a{
+    text-decoration: none;
+    color: #fff;
+    background-color:#70AF31;
+    padding: 5px 6px 3px 6px;
+    border-radius: 50px;
+}
+
+.precioMV{
+    display: flex;
+    padding: 0 30px;
+}
+
+.precioMV>span{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #70AF31;
+}
+
+.precioMV>p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+/************************************ MENU TRADICIONAL **************************************/
+/*---------- BODY--------------- */
+.bodyMT{
+    background-color: #FBF6F6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*------- HEADER - NAV -------------*/
+
+.headerMT{
+    height: 10vh;
+    background-color: #FBF6F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navMV{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 40px;
+    align-items: center;
+}
+
+.userMT{
+   font-size: 35px;
+   color: #CE2C49;
+   text-decoration: none;
+   transition: .3s;
+}
+
+.userMT:hover{
+    font-size: 40px;
+    
+ }
+
+.datoMT{
+    margin: 15px;
+    position: relative; /* porque usaremos una pseduoclase */
+}
+
+.datoMT.menuMTF{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #782c3a8a;
+ }
+
+ .menuMTF.menuMT{
+    color: #fff;
+ } 
+
+.datoMT .menuMT{
+    text-decoration: none;
+    font-size: 20px;
+    color: #CE2C49;
+    transition: all .3s;
+    
+}
+
+.menuMT:hover{
+    font-size:23px;
+    letter-spacing: 1.5px;
+}
+
+/* indicador animado */
+/* after que va a estar despues del contenido */
+.datoMT::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #5f1220;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 50%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.datoMT:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+/* -------- SECTION 1----------- */
+
+.section1MT{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../content/img/emerson-vieira-Qi7NlvF-ZsY-unsplash\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.section1MT>h2 p{
+    margin: 15px;
+}
+
+.section1MT>h2{
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+
+.section1MT>h3 p{
+    font-size: 30px;
+}
+
+/* -------- SECTION 2----------- */
+
+
+.section2MV .imgMV{
+    width: 75.8vw;
+    height: 350px;
+    object-fit: cover;
+}
+
+.der{
+    flex-direction: row-reverse;
+}
+
+.contenidoMT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoMT>h2{
+    font-size: 40px;
+    color: #CE2C49;
+}
+
+.contenidoMT>p{
+    font-size: 1.5em;
+    margin: 35px;
+}
+
+.contenidoMT>a{
+    text-decoration: none;
+    background-color: #CE2C49;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.contenidoMT>a:hover{
+    
+    color: #ff483e;
+    border: solid 3px #ff483e;
+    background-color: rgba(255, 255, 255, 0.313);
+    box-shadow: 0 0 35px #ff483e ;
+}
+
+.section3MT{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+
+.section3MT h2{
+    color: #CE2C49;
+    text-align: center;
+}
+
+.nombrePMT{
+    display: flex;
+    justify-content: space-between;
+    color: #CE2C49;
+    font-size: 20px;
+}
+
+.nombrePMT>a{
+    text-decoration: none;
+    color: #fff;
+    background-color:#CE2C49;
+    padding: 5px 6px 3px 6px;
+    border-radius: 50px;
+}
+
+.precioMT{
+    display: flex;
+    padding: 0 30px;
+}
+
+.precioMT>span{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #CE2C49;
+}
+
+.precioMT>p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+/************************************* GALERIA VEGANA ***********************************/
+    
+
+.section1GV{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../content/img/roam-in-color-QY1956BJ8DE-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.section2GV{
+    width: 100%;
+    height: 40vh;
+    color: #70AF31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.section3GV{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.section3GV>img{ 
+    width: 100%;
+    height: 52vh;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.44);
+}
+
+.section3GV>img:hover{
+    filter: blur(1px);
+}
+
+.section4GV{
+    margin: 50px auto;
+    width: 100%;
+    height: 52vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    cursor: pointer;
+
+}
+
+.section4GV>img{ 
+    width: 100%;
+    height: 52vh;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.44);
+}
+
+.section4GV>img:hover{
+    filter: blur(1px);
+}
+
+
+
+/*---------- LIGHTBOX ----------*/
+
+.lightbox{
+    position: fixed; /* se sale del flujo y ocupa el espacio indicado */
+    height: 100%;
+    width: 100%;
+    top: 0; /* para utilizar el absolute */
+    left: 0; /* para utilizar el absolute */
+    transform: translateX(-100%);/* para que se vaya a la izquierda y luego mostrarlo con js */
+    background-color: rgba(0, 0, 0, 0.693);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .7s ease;
+
+}
+
+.lightbox>img{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    object-fit: cover;
+    display: block;
+}
+
+.fi.fi-br-cross{
+    color: #fff;
+    position: absolute; /* se acomoda de acuerdo al padre directo */
+    top: 20px;
+    right: 40px;
+    background-color: #70AF31;
+    padding: 10px 10px 6px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*------ Clase agregada con js ------*/
+.mostrar{
+    transform: translateX(0%);
+}
+
+
+
+
+/************************************* GALERIA TRADICIONAL ***********************************/
+    
+
+.section1GT{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../content/img/galeria/galeria\ 11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+.section2GT{
+    width: 100%;
+    height: 40vh;
+    color: #CE2C49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.section3GV{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.section3GV>img{ 
+    width: 100%;
+    height: 52vh;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.44);
+}
+
+.section3GV>img:hover{
+    filter: blur(1px);
+}
+
+.section4GV{
+    margin: 50px auto;
+    width: 100%;
+    height: 52vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    cursor: pointer;
+
+}
+
+.section4GV>img{ 
+    width: 100%;
+    height: 52vh;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.44);
+}
+
+.section4GV>img:hover{
+    filter: blur(1px);
+}
+
+
+
+/*---------- LIGHTBOX ----------*/
+
+.lightbox{
+    position: fixed; /* se sale del flujo y ocupa el espacio indicado */
+    height: 100%;
+    width: 100%;
+    top: 0; /* para utilizar el absolute */
+    left: 0; /* para utilizar el absolute */
+    transform: translateX(-100%);/* para que se vaya a la izquierda y luego mostrarlo con js */
+    background-color: rgba(0, 0, 0, 0.693);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .7s ease;
+
+}
+
+.lightbox>img{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    object-fit: cover;
+    display: block;
+}
+
+.fi.fi-br-cross{
+    color: #fff;
+    position: absolute; /* se acomoda de acuerdo al padre directo */
+    top: 20px;
+    right: 40px;
+    background-color: #70AF31;
+    padding: 10px 10px 6px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*------ Clase agregada con js ------*/
+.mostrar{
+    transform: translateX(0%);
+}
+
+
+
+
+/* ***************************************** CARRITO *********************************** */
+
+/*-------------- MODAL --------------*/
+.alerta{
+    width: 40%;
+    background: #937a4d71;
+    position: fixed;
+    top: calc(100vh - 95%);
+    left: calc(100vw - 69%);
+    text-align: center; 
+    border-radius: 10px ;
+    padding: 5px;
+    opacity: 0;
+    pointer-events: none; /* para que el modal no nos evite seleccinar otra cosa */
+    
+ }
+ 
+ /* clase que se agregara con js */
+ .alerta--show{
+    opacity: 1;
+    pointer-events: unset;
+ }
+
+ .btnCerrar , .btnContinuar, .btnVaciar{
+    margin: 5px;
+    padding: 7px 7px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+ .btn-danger{
+    padding: 7px 7px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+ .modalBody{
+    max-height: 80vh;
+    width: 100%;
+    height: 85%;
+    border: 2px solid #000;
+    overflow: scroll;
+ }
+
+ .modalParrafo{
+    margin: 50px;
+    font-size: 30px;
+    color: #937a4dc0;
+    font-style: italic;
+    font-weight: bold;
+ }
+
+ .modal-contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: #937a4dc0;
+    display: flex;
+    justify-content: center;
+ }
+
+ .modal-contenedor p{
+    font-size: 25px;
+    margin: 20px;
+ }
+
+ .img-carrito{
+    margin-top: 10px;
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 20px;
+ }
+
+
+
+ /*-------- ESTILOS CARD ---------*/
+ .contenedorC{
+    margin: 20px;
+    width: 30vw;
+    height: 60vh; 
+    border-radius: 10px;
+    background-color: #F7FBF6;
+    box-shadow: 0px 0px 15px 0px rgba(18, 141, 32, 0.529);
+ }
+ 
+ .cardC_img{
+    margin-top: 15px;
+    width: 90%;
+    height: 30vh;
+    margin-left: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+ }
+
+ .cardC_body{
+    width: 100%;
+    height: 27.5vh;
+    background-color: #F7FBF6;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+ .cardC_title, .cardC_text, .btnCarrito{
+    margin-left: 30px;
+    margin-bottom: 10px;
+ }  
+ 
+ .cardC_title{
+    padding-top: 15px;
+ }
+
+ .btnCarrito{
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #70AF31;
+    cursor: pointer;
+ }
+
+ .cardsEstudiantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+/* ------------------ MODAL TOTAL --------------- */
+.modal--show{
+    transition: all .5s;
+    transform: translateX(-150%);
+ }
+
+ .modal--mostrar{
+    transform: translateX(0%)!important;
+ }
+
+.modalTotal{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    background-color: #937a4de2;
+    align-items: center;
+    position: fixed;
+    top: calc(100vh - 100%);
+    left: calc(100vw - 92%);
+    max-height: 90vh;
+    overflow: scroll;
+    transform: translateX(-150%);
+    
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+}
+
+.right h2{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.modalTotal input{
+    display: block;
+}
+
+.modal-contenedorT{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color: #fff;
+}
+
+.img-carritoT{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.modal-contenedorT p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.infoTotal{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #bcbcbc, 3px 3px 0 #aba4a4;
+    align-items: center;
+    
+}
+
+.infoTotal input{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.571);
+    
+}
+
+.infoTotal2{
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #bcbcbc, 3px 3px 0 #aba4a4;
+    align-items: center;
+    
+}
+
+.input1{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+
+.input2{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+
+.infoTotal3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #bcbcbc, 3px 3px 0 #aba4a4;
+    align-items: center;
+}
+
+.input3{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.571);
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.input4{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+
+.input3:hover{
+    color: #937a4dc0;
+    background-color:#fff ;
+}
+
+
+.totalCompra{
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: end;
+    font-size: 20px;
+    color: #fff;
+    border: 1px #fff solid;
+    margin-left: 320px;
+    padding:9px 19px 9px 9px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    
+}
+
+.modalconfirm{
+    width: 50%;
+    margin: 15% auto;
+    background-color: #d9d9d9eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    top: calc(100vh - 100%);
+    left: calc(100vw - 80%);
+    transform: translateX(-200%);
+
+}
+
+.modalconfirm img{
+    height: 200px;
+    width: 200px;
+}
+
+.modalconfirm p{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.cerrarConfirm{
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D93D59;
+    color: #fff;
+}
+
+/* clase puesta con js */
+.mostar--confirm{
+    transform: translateX(0%);
+}
+
+
+
+ /* **************************** RESERVAS ********************************************* */
+
+ /* --------- TARJETA CLIMA --------- */
+.bodyReserva{
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerMVR{
+    height: 10vh;
+    background-color: #937a4d71;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userMT{
+    font-size: 35px;
+    color: #FFF;
+    text-decoration: none;
+    transition: .3s;
+ }
+ 
+ .userMT:hover{
+     font-size: 40px;
+     
+  }
+
+
+.datoMR{
+    margin: 15px;
+    position: relative; /* porque usaremos una pseduoclase */
+}
+
+.datoMR.menuMTF{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #782c3a8a;
+ }
+.datoMR .menuMR{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.datoMR::after{
+    content: ""; /* esto para poder pintar */
+    width: 0;
+    height: 4px;
+    background-color: #937a4dd8;
+    position: absolute; /* para poder posicionarlo de acuerdo a su padre mas cercano (dato) */
+    bottom: 0;/* lo posiciona abajo */
+    right: 50%; /* lo posiciona al centro */
+    transition: all .8s;
+    will-change: width; /* indicarle que espera cambios en el width  */
+}
+
+.datoMR:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+.mainReserva{
+    height: 170vh;
+}
+
+ .contenedorClima {
+    padding-top: 20px;
+    height: 38vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.caja1 {
+    background-color: #937a4dc0;
+    color:azure;    
+}
+
+.caja1 h2{
+    padding: 4px;
+} 
+
+.caja2 {
+    background-color: #937a4dc0;
+    color:azure;    
+}
+.caja3 {
+    background-color: #937a4dc0;
+    color:azure;    
+}
+
+.caja4{
+    width: 300px;
+    background-color: #937a4dc0;
+    color:azure; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.caja4 h2{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.imgReserva{
+    height: 160px;
+    width: 160px;
+    margin-left: 25px;
+}
+
+.caja4 input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.EnviarClima{
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.mainReserva{
+
+    background-image: url(../content/img/oliver-timm-haarmann-p6OLZPnq810-unsplash\ \(1\).jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.contenedorReserva {
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedorReserva article{
+   color:#fff ;
+   text-shadow: 1px 1px 0 #bcbcbc, 3px 3px 0 #aba4a4;
+   width: 30%;
+   background-color: #d9d9d979;
+   border-radius: 10px;
+    height:55vh ;
+}
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.reservaSubtitulo{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.hr{
+    width: 30%;
+}
+
+.article1 .elige{
+    display: flex;
+    align-items: center;
+}
+
+.elige input{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    width: 35px;
+    background-color: transparent;
+    margin: 20px;
+}
+
+.article2{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.article2 input{
+    margin-top: 55px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.article3{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.turnos{
+    display: grid;
+    align-items: center;
+    grid-gap: 20px;
+ 
+}
+
+.time{
+    margin-top: 55px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.FraseClima{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #937a4dc0;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+.infoPersona{
+    margin-top: 30px;
+    width: 75vw;
+    height: auto;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d979;
+}
+
+.infoPersona, .infoNA, .infoTC{
+    padding: 20px;
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #bcbcbc, 3px 3px 0 #aba4a4;
+   
+}
+
+.infoNA input{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.infoTC input{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.btnReserva{
+    margin-top: 15px;
+}
+
+.btnReserva input{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    background-color: transparent;
+    border: solid 2px #fff;
+    font-weight: bold;
+}
+
+.btnReserva input:hover{
+    color: #937a4dc0;
+    background-color:#fff ;
+}
+
+
+/* clases js */
+.is-valid{
+    border: 2px solid #70AF31 !important;
+}
+
+.is-invalid{
+    border: 2px solid #D93D59 !important;
+}
+
+
+
+/*-------------- FOOTER ------------*/
+
+.footerHR{
+    display: flex;
+    justify-content: space-around;
+    background-color: #937a4d71;
+    color: #fff;
+    
+}
+
+.footerHR .direccion, .telefonos, .redes{
+    margin-top: 15px;
+}
+
+.direccion h3 p{
+    padding: 5px;
+}
+
+.telefonos pre, h3{
+    padding: 5px;
+}
+
+.redes{
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.redes>a{
+    padding: 15px;
+    color: #fff;
+}
+
+/* ---------- ALERTA ------------ */
+
+.alertar{
+    width: 30%;
+    height: auto; 
+    background: #937a4dd6;
+    position: fixed;
+    top: calc(100vh - 65%);
+    left: calc(100vw - 65%);
+    text-align: center; 
+    border-radius: 10px;
+    padding: 5px;
+ } 
+ 
+ .textAlertaR{
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    color: aliceblue;
+    font-size: 20px; 
+ }
+ .btnAlertaR{
+    width: 40%;
+    height: auto; 
+    margin-right: 3% ;
+    margin-bottom: 3%;
+    background: rgba(255, 255, 255, 0.57);
+    border: none;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 2%;
+ }
+ .btnAlertaR:hover{
+    background: rgba(255, 255, 255, 0.857);
+}
+
+.cardReserva2{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cardReserva{
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #937a4dc0;
+    text-align:center;
+    color: #fff;
+}
+
+.cardReserva p{
+    margin:10px 0px 10px;
+    font-size: 17px;
+    
+}
+
+
+/*MEDIA QUERY*/
+@media (min-width: 300px) {
+    
+    /* --------------------------- HOME VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+    
+ }
+ .headerMV{
+    height: 26%;
+ }
+
+ .home_headerV{
+    height: 26%;
+ }
+
+ .menu{
+    padding: 3px 2px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+ }
+
+ .nav_vegan{
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+
+
+ .testimonios hr{
+    width: auto;
+ }
+
+ .lugarHV>hr {
+    width: auto;
+}
+
+.lugarHV .lugar_img{
+    width: 120px;
+    height: 120px;
+}
+
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHV2{
+    width: 160px;
+    height: 110px;
+}
+
+.ofertaHV hr{
+    width: auto;
+}
+
+.subtitleHV{
+    font-size: 20px;
+}
+
+.titles{
+    padding-right: 20px;
+}
+
+.containerHV{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+
+ /* --------------------------- MENU VEGANO ----------------------------------- */
+
+ .section1MV>h2 {
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.section1MV>p{
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.section2MV{
+    display: block;
+} 
+
+.section2MV .imgMV{
+    width: 100%;
+}
+
+.contenidoMV {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contenidoMV>h2{
+    text-align: center;
+}
+
+.section3MV{
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+}
+
+.nombrePMV {
+    margin: auto 11px;
+}
+
+.nombrePMV>a {
+    margin: auto 11px;
+}
+
+/* GALERIA */
+
+.section1GV{
+    font-size: 40px;
+}
+.section3GV>h2{
+    font-size: 20px;
+}
+
+.section3GV{
+    grid-template-columns: 1fr 1fr;
+}
+
+.section4GV{
+    grid-template-columns: 1fr 1fr;
+}
+
+/* RESERVAS  */
+
+.contenedorClima{
+    flex-wrap: wrap;
+}
+
+.FraseClima{
+    width: auto;
+    margin-top: 100%;
+} 
+
+.caja1, .caja2, .caja3, .caja4{
+margin-bottom: 10px;
+}
+
+.contenedorReserva{
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorReserva article{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.alertar{
+    width: auto;
+    left: calc(100vw - 100%);
+}
+
+/* CARRITO */
+
+.contenedorC{
+    width: 70%;;
+}
+
+
+
+/* ---------------------------HOME CARNIVORO -------------------------- */
+
+
+ .headerMT{
+    height: 26%;
+ }
+
+ .menu{
+    padding: 3px 2px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+ }
+
+ 
+
+.bodyV{
+    width: 100%;
+ }
+ .navMV{
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .testimoniosT hr{
+    width: auto;
+ }
+
+ .lugarHT>hr {
+    width: auto;
+}
+
+.lugarHT .lugar_img{
+    width: 120px;
+    height: 120px;
+}
+
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHT{
+    flex-wrap: wrap;
+}
+
+.imgHT {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHT2{
+    width: 150px;
+    height: 150PX;
+}
+
+.ofertaHT hr{
+    width: auto;
+}
+
+.subtitleHT{
+    font-size: 20px;
+}
+
+.titles{
+    padding-right: 20px;
+}
+
+.containerHT{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHT{
+    display: inline-block;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+.enlaceHT{
+    padding-bottom: 10px;
+}
+
+
+/* ---------------------------------------- MENU CARNIVORO  */
+.headerHVT{
+    height: 26%;
+ }
+
+ .headerMVR{
+    height: 26%;
+ }
+
+.section1MT>h2 {
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+
+.section1MT>p{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.section2MT .imgMV{
+    width: 100%;
+}
+/* MENU CARNIVORO */
+
+.section1MT{
+    font-size: 40px;
+}
+.section3MT>h2{
+    font-size: 20px;
+}
+
+.section3MT{
+    grid-template-columns: 1fr ;
+}
+
+.section4MT{
+    grid-template-columns: 1fr ;
+}
+
+.contenidoMT{
+    padding-bottom: 10px;
+}
+
+
+/* -----------------------GALERIA */
+
+/* GALERIA */
+
+.section1GT{
+    font-size: 40px;
+}
+
+
+/* ------------------------------------INDEX */
+.sectionIndex{
+    margin-left: 30px;
+    width: auto;
+    margin-top: auto;
+}
+
+.img1{
+    margin-left: 20px;
+    margin-top: 250%;
+    width: 150px;
+    height: 150px;
+}
+
+.sectionIndex h1{
+    
+    font-size: 30px;
+} 
+
+.img2{
+    width: 200px;
+}
+
+.sectionIndex h2{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+.sectionIndex input{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.iconoIndex {
+    margin-top: 400px;
+    left: -120px;
+    font-size: 27px;
+}
+.botonesIndex{
+    display: flex;
+    
+}
+
+.articleIndex{
+    
+    height: auto;
+}
+
+/* CARRITO */
+.modalTotal{
+    flex-direction: column;
+}
+
+.img-carritoT{
+    height: 70px;
+    width: 70px;
+}
+
+.modal-contenedorT p {
+    font-size: 15px;
+    margin: 5px;
+    width: 120px;
+}
+
+.infoTotal {
+    flex-direction: column;
+    }
+
+    .infoTotal2 {
+        margin-top: 60px;
+        FLEX-DIRECTION: column;
+    }
+
+    .infoTotal3{
+        margin-top: 70px;
+        FLEX-DIRECTION: column;
+    }
+
+    .input2{
+        margin-bottom: 10px;
+    } 
+
+    .input3{
+        margin-bottom: 10px;
+    }
+    .input4{
+        margin-bottom: 10px;
+    }
+
+    .totalCompra{
+        margin-left: 0;
+    }
+
+    .alerta {
+        width: 80%;
+        left: calc(100vw - 89%);
+    }
+
+    .img-carrito{
+        height: 100px;
+        width: 100px;
+    }
+
+    .modal-contenedor p {
+        font-size: 10px;
+    }
+
+    .btn-danger{
+        font-size: 10px;
+    }
+
+    .btnCerrar, .btnContinuar, .btnVaciar{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    /* --------------------------- HOME VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+ }
+ 
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 220px;
+    height: 220px;
+
+}
+.imgHV2{
+    width: 250px;
+    height: 150px;
+}
+
+.containerHV{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+
+/* RESERVAS */
+
+.FraseClima{
+    width: auto;
+    margin-top: 50%;
+} 
+
+/* HOME CARNIVORO  */
+.bodyV{
+    width: 100%;
+ }
+ 
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHT{
+    flex-wrap: wrap;
+}
+
+
+.containerHT{
+    flex-direction: column;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+    width: 100%;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+.oferta_cardT{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+
+/* INDEX */
+
+.iconoIndex {
+    
+    left: -80px;
+    
+}
+
+.img1 {
+    margin-top: 170%;
+    width: 200px;
+    height: 200px;
+}
+
+.sectionIndex {
+    margin-left: 30px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.sectionIndex h2{
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+.sectionIndex input{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.img2{
+    width: 200px;
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+    /* CARRITO */
+    .modalTotal{
+        flex-direction: row;
+    }
+
+    .img-carritoT{
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+    }
+    
+    .modal-contenedorT p {
+        font-size: 15px;
+        margin: 5px;
+        width: 120px;
+    }
+
+    .alerta {
+        width: 60%;
+        left: calc(100vw - 79%);
+    }
+
+    .img-carrito {
+        width: 190px;
+        height: 190px;
+    }
+
+    .modal-contenedor p {
+        font-size: 20px;
+    }
+
+    .btn-danger{
+        font-size: 20px;
+    }
+
+    .btnCerrar, .btnContinuar, .btnVaciar{
+        font-size: 25px;
+    }
+
+        /* --------------------------- MENU VEGANO ----------------------------------- */
+ .bodyV{
+    width: 100%;
+ }
+
+ .headerMVR{
+    height: 10vh;
+ }
+
+ .headerHVT{
+    height: 10vh;
+ }
+
+ .headerMV{
+    height: 10vh;
+ }
+
+ .home_headerV{
+    height: 10vh;
+ }
+
+ .headerMT{
+    height: 10vh;
+ }
+
+ .nav_vegan{
+    display: flex;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHV {
+    width: 220px;
+    height: 220px;
+
+}
+.imgHV2{
+    width: 250px;
+    height: 150px;
+}
+
+.containerHV{
+    display: block;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_card img {
+    width: 100%;
+}
+
+/* MENU VEGANO  */
+
+.section3MV{
+    grid-template-columns: 1fr 1FR;
+    margin-bottom: 10px;
+}
+.section2MV .imgMV{
+    width: 50%;
+}
+
+.contenidoMV {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section2MV{
+    display: flex;
+}
+
+
+/* GALERIA */
+
+.section1GV{
+    font-size: 60px;
+}
+.section3GV>h2{
+    font-size: 20px;
+}
+
+.section3GV{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section4GV{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* RESERVAS */
+
+.contenedorReserva{
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedorReserva article{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.alertar{
+    width: auto;
+    left: calc(100vw - 80%);
+}
+
+.FraseClima{
+    width: auto;
+    margin-top: 20%;
+} 
+
+/* CARRITO */
+
+.contenedorC{
+    width: 40%;;
+}
+
+
+
+/*------------------------------- HOME CARNIVORO */
+
+.bodyV{
+    width: 100%;
+ }
+ .navMV{
+    display: flex;
+ }
+ .img_container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .oferta_containerHV{
+    flex-wrap: wrap;
+}
+
+.imgHT {
+    width: 150px;
+    height: 150px;
+
+}
+.imgHT2{
+    width: 150px;
+    height: 150px;
+}
+
+.containerHT{
+    display: block;
+}
+.tittle_container{
+    margin: auto;
+}
+
+.oferta_containerHV{
+    display: inline-block;
+}
+
+.oferta_cardT img {
+    width: 100%;
+}
+
+
+/* --------------------------MENU CARNIVORO  */
+
+.section3MT{
+    grid-template-columns: 1fr 1FR;
+    margin-bottom: 10px;
+}
+.section2MT .imgMV{
+    width: 50%;
+}
+
+.contenidoMT {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section2MT{
+    display: flex;
+}
+
+/* INDEX */
+.img1 {
+    margin-top: 100%;
+    width: 300px;
+    height: 300px;
+    margin-left: 80PX;
+}
+
+
+
+}
+
+
+@media (min-width: 992px) {
+
+
+    .img-carritoT{
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    
+    .modal-contenedorT p {
+        font-size: 20px;
+        margin: 5px;
+        width: 120px;
+    }
+    
+        /* --------------------------- MENU VEGANO ----------------------------------- */
+        .nav_vegan{
+            display: flex;
+         }
+    
+        .img_container{
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .dato .menu {
+            font-size: 25px;
+        }
+        
+         .oferta_containerHV{
+            flex-wrap: nowrap;
+        }
+        
+        .imgHV {
+            width: 220px;
+            height: 220px;
+        
+        }
+        .imgHV2{
+            width: 250px;
+            height: 150px;
+        }
+        
+        .containerHV{
+           display: flex;
+           flex-direction: row;
+        }
+        .tittle_container{
+            margin: auto;
+        }
+        
+        .oferta_containerHV{
+            display: block;
+        }
+        
+        .oferta_card img {
+            width: 100%;
+            
+        }
+        
+        .subtitleHV{
+            text-align: center;
+        }
+        
+        .oferta_card >p{
+            text-align: center;
+        }
+        
+        .oferta_card >b{
+            display: block;
+            text-align: center;
+        
+        }
+        .oferta_card >a{
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-top: 20px;
+        
+        }
+        
+        .lugarHV .lugar_img{
+            height: 400px;
+            width: 400px;
+        }
+
+        /* RESERVA */
+
+        .FraseClima {
+            width: auto;
+            margin-top: 5%;
+        }
+
+        .alertar {
+            width: auto;
+            left: calc(100vw - 75%);
+        }
+
+        /* ----------------------------MENU TRADICIONAL */
+        .containerHT{
+            display: flex;
+           flex-direction: row;
+        }
+
+
+        /* INDEX */
+
+        .iconoIndex {
+            margin-top: 500px;
+            font-size: 40px;
+            left: 80px;
+            
+        }
+        
+        .img1 {
+            margin-top: 50%;
+            width: 400px;
+            height: 400px;
+            margin-left: 150px;
+        }
+        
+        .sectionIndex {
+            margin-left: 30px;
+            width: auto;
+            margin-top: 40px;
+           
+        }
+        
+        .sectionIndex h2{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .sectionIndex input{
+            text-align: center;
+            font-size: 40px;
+            padding: 10px 15px;
+        }
+        
+        .img2{
+            width: 350px;
+        }
+        
+        .sectionIndex h1{
+            
+            font-size: 50px;
+        } 
+
+
+        /* ------------------------------INDEX------------------------- */
+
+        .img2 {
+            width: 250px;
+        }
+
+        .sectionIndex h1 {
+            font-size: 50px;
+        }
+
+        .sectionIndex h2 {
+            font-size: 45px;
+        }
+
+        .iconoIndex {
+            margin-top: auto; 
+           
+        }
+
+        
+
+        
+
+    }
+        
+    
+@media (min-width: 1200px) {
+
+    /* CARRITO */
+    .img-carritoT{
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    
+    .modal-contenedorT p {
+        font-size: 20px;
+        margin: 5px;
+        width: 120px;
+    }
+
+    .infoTotal {
+        flex-direction: row;
+        }
+    
+        .infoTotal2 {
+            margin-top: 0;
+            FLEX-DIRECTION: row;
+        }
+    
+        .infoTotal3{
+            margin-top: 0;
+            FLEX-DIRECTION: row;
+        }
+    
+        .input2{
+            margin-bottom: 10px;
+        } 
+    
+        .input3{
+            margin-bottom: 10px;
+        }
+        .input4{
+            margin-bottom: 10px;
+        }
+    
+        .totalCompra{
+            margin-left: 0;
+        }
+
+/* LOGIN */
+
+.iconos {
+    margin:0;
+ }
+
+ .formulario>p {
+     margin-top: 0;
+     padding-bottom: 0;
+ }
+
+ .formulario input[type=submit]{
+     margin: 0;
+ }
+
+    .nav_vegan{
+        display: flex;
+     }
+
+    .img_container{
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dato .menu {
+        font-size: 25px;
+    }
+    
+     .oferta_containerHV{
+        flex-wrap: nowrap;
+    }
+    
+    .imgHV {
+        width: 220px;
+        height: 220px;
+    
+    }
+    .imgHV2{
+        width: 250px;
+        height: 150px;
+    }
+    
+    .containerHV{
+       display: flex;
+       flex-direction: row;
+    }
+    .tittle_container{
+        margin: auto;
+    }
+    
+    .oferta_containerHV{
+        display: block;
+    }
+    
+    .oferta_card img {
+        width: 100%;
+        
+    }
+    
+    .subtitleHV{
+        text-align: center;
+    }
+    
+    .oferta_card >p{
+        text-align: center;
+    }
+    
+    .oferta_card >b{
+        display: block;
+        text-align: center;
+    
+    }
+    .oferta_card >a{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 20px;
+    
+    }
+    
+    .lugarHV .lugar_img{
+        height: 400px;
+        width: 400px;
+    }
+
+    .iconoHV{
+        height: 120px;
+    }
+
+    .imgHV2{
+        width: 350px;
+        height: 200px;
+    }
+
+    .imgHV {
+        width: 280px;
+        height: 280px;
+    }
+    
+
+    .oferta_containerHV{
+        display: flex;
+    } 
+
+    .oferta_card img{
+        width: 28.5vw;
+    }
+
+
+    /* RESERVAS */
+
+    .alertar {
+        left: calc(100vw - 70%);
+    }
+
+
+    /*--------------------------------------------- HOME CARNIVORO */
+    .oferta_containerHT{
+        display: flex;
+    } 
+
+    .oferta_containerHV{
+        display: flex;
+    }
+
+
+     /* INDEX */
+
+     .iconoIndex {
+        margin-top: 550px;
+        font-size: 60px;
+        left: 90px;
+        
+    }
+    
+    .img1 {
+        margin-top: 100%;
+        width: 500px;
+        height: 500px;
+        margin-left: 50px;
+    }
+    
+    .sectionIndex {
+        margin-left: 30px;
+        width: auto;
+        margin-top: 40px;
+       
+    }
+    
+    .sectionIndex h2{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 70px;
+    }
+    
+    .sectionIndex input{
+        text-align: center;
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+    
+    .img2{
+        width: 400px;
+    }
+    
+    .sectionIndex h1{
+        
+        font-size: 70px;
+    } 
+    .botonesIndex{
+        margin-left: 90px;
+        padding: 20px 25px;
+    }
+
+}
+
+@media (min-width: 1366px){
+
+    /* INDEX */
+    .img2 {
+        width: 300px;
+    }
+
+    .sectionIndex h1 {
+        font-size: 50px;
+    }
+
+    .sectionIndex h2 {
+        font-size: 45px;
+    }
+
+    .iconoIndex {
+        margin-top: auto; 
+       
+    }
+
+    .img1 {
+        margin-top: auto;
+        
+    }
+
+}

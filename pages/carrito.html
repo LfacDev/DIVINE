@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <header class="headerMV">
+        <a href="../index.html"><img src="../content/logos/logo-divine2.png" alt="icono" class="iconoMV"></a>
+        <nav class="nav_vegan">
+            <li class="datoMV"><a class="menuMV" href="./Home-vegano.html">Inicio</a></li>
+            <li class="datoMV"><a class="menuMV" href="./menu-vegano.html">Menu</a></li>
+            <li class="datoMV"><a class="menuMV" href="./galeria-vegano.html">Galeria</a></li>
+            <li class="datoMV"><a class="menuMV" href="./login.html">Reservas</a></li>
+            <li><a class="userMV" href="./login.html"><i class="fi fi-tr-circle-user "></i></a></li>
+            <li><a id="carrito" class="userMV" href=""><i id="carritoContenedor" class="fi fi-sr-shopping-cart">0</i></a></li>
+            
+        </nav>
+    </header>
+    <main>
+
+      <template id="templateEstudiante">
+        <section class="contenedorC" id="contenedorC">
+            <article class="cardC">
+                <img class="cardC_img" src="" alt="">
+                <article class="cardC_body">
+                    <h2 class="cardC_title"></h2>
+                    <h3 class="cardC_text1">Precio: </h3>
+                    <h3 class="cardC_text2">Cantidad: </h3>
+                    <input id="btnCarrito" class="btnCarrito" type="button" value="Agregar al carrito">
+                </article>
+            </article>
+         </section>
+      </template>
+
+        <div class="cardsEstudiantes" id="cardsEstudiantes">
+        </div>
+
+        <section class="alerta" id="alerta">
+            <div class="modalBody" id="modalBody">
+
+            </div>
+            <input class="btnVaciar" id="vaciar" value="Vaciar" type="button">
+            <input class="btnContinuar" id="continuar" value="Continuar" type="button">
+            <input class="btnCerrar" id="btnCerrar" value="Cerrar" type="button">
+            <span>Precio Total:</span>
+            <p id="precioTotal" class="precioTotal"></p>
+
+        </section>
+
+        <section class="modalTotal" id="modalTotal">
+            <article class="left">
+                <div class="modalBodyT" id="modalBodyT">
+
+                </div>
+            </article>
+            <article class="right" id="contenedorModal">
+                <h2>DETALLE DE PAGO</h2>
+                <section class="infoTotal">
+                    <label id="nombreModal">Nombres</label>
+                    <input id="nombre" type="text">
+                    <label id="nombreModal">Apellidos</label>
+                    <input id="apellido" type="text">
+                </section>
+                <section class="infoTotal2">    
+                    <label id="nombreModal">Numero tarjeta</label>
+                    <input class="input1" id="numTar" type="text">
+                    <label id="nombreModal">Fecha expiracion</label>
+                    <input class="input2" id="fechaUno" type="text">
+                    <input class="input2" id="fechaDos" type="text">
+                </section>
+                <section class="infoTotal3">
+                    <label id="nombreModal">CVC</label>
+                    <input class="input4" id="cvc" type="text">
+                    <input class="input3" type="button" value="Terminar compra" id="terminarCompra" >
+                    <input class="input3" type="button" value="Cancelar" id="cancelar">
+                </section>
+                <p class="totalCompra" id="totalCompra"> </p>
+            </article>
+        </section>
+
+        <section class="modalconfirm" id="modalconfirm" >
+            <img src="../content/svg/check.svg" alt="confirmar">
+            <p>Compra Exitosa</p>
+            <input type="button" name="" id="cerrarConfirm" value="Cerrar" class="cerrarConfirm">
+        </section>
+    </main>
+    <footer class="footerHV">
+        <div class="telefonos">
+            <h3>Telefonos</h3>
+            <pre>
+  601 5589612
+  601 8854574
+            </pre>
+        </div>
+        <div class="redes">
+            <a href=""><i class='bx bxl-linkedin' ></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+        </div>
+        <div class="direccion">
+            <h3>Direccion</h3>
+            <p>Cll 85 #78 - 25 Chapinero</p>
+        </div>
+    </footer>
+
+    <script src="../dist/carrito.js"></script>
+    <script type="module" src="../dist/carritoV.js"></script>
+</body>
+</html>

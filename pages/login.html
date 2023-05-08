@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,900;1,100&display=swap" rel="stylesheet">
+    <title>Inicia sesion</title>
+</head>     
+<body>
+    <main class="main">
+        <section class="container-form registrarse" id="registrarse">
+            <article class="bienvenido">
+                <div class="mensaje">
+                    <h2>Bienvenido a Divine</h2>
+                    <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+                    <button class="registrarse-btn btn" id="registrarse-btn">Iniciar Sesion</button>
+                </div>
+            </article>
+            <form class="formulario" id="registro">
+                <h2 class="crear-cuenta">Crear una cuenta</h2>
+                <div class="iconos">
+                    <div class="icono">
+                        <i class='bx bxl-instagram'></i>
+                    </div>
+                    <div class="icono">
+                        <i class='bx bxl-linkedin' ></i>
+                    </div>
+                    <div class="icono">
+                        <i class='bx bxl-facebook-circle' ></i>
+                    </div>
+                </div>
+                <p class="cuenta-gratis">Crear una cuenta gratis</p>
+                <input id="nombre" type="text" placeholder="Nombre">
+                <input id="email" type="email" placeholder="Email">
+                <input id="contraseña" type="password" placeholder="Contraseña">
+                <input type="submit" value="Registrarse" id="Registrarse">
+            </form>
+        </section>
+        <section class="container-form iniciar" id="iniciar">
+            <form class="formulario" id="formulario">
+                <h2 class="crear-cuenta">Iniciar Sesion</h2>
+                <div class="iconos">
+                    <div class="icono">
+                        <i class='bx bxl-instagram'></i>
+                    </div>
+                    <div class="icono">
+                        <i class='bx bxl-linkedin' ></i>
+                    </div>
+                    <div class="icono">
+                        <i class='bx bxl-facebook-circle' ></i>
+                    </div>
+                </div>
+                <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
+                <input id="emailR" type="email" placeholder="Email">
+                <input id="contraseñaR" type="password" placeholder="Contraseña">
+                <input type="submit" value="Iniciar Sesion" id="IniciaSesion">
+            </form>
+            <article class="bienvenido">
+                <div class="mensaje">
+                    <h2>Bienvenido de nuevo</h2>
+                    <p>Si aun no tienes una cuenta por favor registrate aqui</p>
+                    <button class="iniciar-btn btn" id="iniciar-btn">Registrarse</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="../dist/login.js"></script>
+    <script type="module" src="../dist/loginV.js"></script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <header class="headerMVR">
+        <a href="../index.html"><img src="../content/logos/logo-divine2.png" alt="icono" class="iconoMV"></a>
+        <nav class="nav_vegan">
+            <li class="datoMR"><a class="menuMR" href="../index.html">Inicio</a></li>
+            <li class="datoMR"><a class="menuMR" href="../index.html">Menu</a></li>
+            <li class="datoMR"><a class="menuMR" href="../index.html">Galeria</a></li>
+            <li class="datoMR"><a class="menuMR" href="./login.html">Reservas</a></li>
+            <li class="datoMR"><a class="menuMR" href="./carrito.html">Carrito</a></li>
+            <li><a class="userMT" href="./login.html"><i class="fi fi-tr-circle-user "></i></a></li>
+            <li><a id="logout" class="userMT" href="./login.html"><i class="fi fi-br-exit"></i></i></a></li>
+        </nav>
+    </header>
+    <main class="mainReserva">
+        <section id="contenedorClima" class="contenedorClima">
+            <article id="caja4" class="caja4">
+                <h2>Escribe tu ciudad y planea tu reserva</h2>
+                <input type="text" name="" id="inputReserva" placeholder="Ingresa tu ciudad">
+                <input type="button" value="Enviar" class="EnviarClima" id="EnviarClima">
+            </article>
+            <article id="caja1" class="caja1">
+                <h1 id="temperaturaValor">Temperatura promedio</h1>
+                <h2 id="temperaturaDescripcion">16 °C</h2>
+            </article>
+            <article id="caja2" class="caja2">
+                <h2 id="ubicacion">Ingresa la ubicacion</h2>
+                <img id="iconoAnimado" src="../content/svg/day.svg" alt="iconoAnimado" class="imgReserva">
+            </article>
+            <article id="caja3" class="caja3">
+                <h3>Vel. del viento promedio</h3>
+                <h2 id="vientoVelocidad"> 4.0 m/s </h2>
+            </article>
+        </section>
+        <section>
+            <h2 class="FraseClima" id="FraseClima"> ¿Que deliciosa experiencia culinaria te espera hoy?</h2>
+        </section>
+
+        <section class="contenedorReserva" id="contenedorReserva">
+            <article class="article1">
+                <h2 class="reservaSubtitulo">Numero de personas</h2>
+                <hr class="hr">
+                <div class="elige">
+                    <input type="text" value=" - " id="menos">
+                    <h2 class="NumPersona" id="NumPersona">1</h2>
+                    <input type="text" value=" + " id="mas">
+                </div>
+            </article>
+            <article class="article2">
+                <h2 class="reservaSubtitulo">Fecha reservacion</h2>
+                <hr class="hr">
+                <input required type="date" name="" id="fecha">
+            </article>
+            <article class="article3">
+                <h2 class="reservaSubtitulo">Hora reservacion</h2>
+                <hr class="hr">     
+                    <div id="turnos" class="turnos">
+                        <input required id="hora" class="time" type="time">
+                    </div>
+            </article>
+            <section>
+                <section class="infoPersona" id="infoPersona">
+                    <section class="infoNA" id="infoNA">
+                        <label >Nombres</label>
+                        <input id="name" class="" type="text" placeholder="Ingrese Nombre">
+                        <label >Apellidos</label>
+                        <input id="lastName" type="text" placeholder="Ingrese Apellidos">
+                    </section>
+                    <section class="infoTC" id="infoTC">
+                        <label for="">Telefono</label>
+                        <input id="telephone" type="number" placeholder="Ingrese Telefono">
+                        <label for="">Correo</label>
+                        <input id="mail" type="email" placeholder="Ingrese Correo">
+                    </section>
+                    <section class="btnReserva">
+                        <input id="btnEnviarReserva" type="button" value="Reservar">
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="cardReserva2" id="cardReserva">
+
+        </section>
+        <template id="tempReserva">
+            <div class="cardReserva">
+              <h3 class="title-cardReserva"></h3>
+              <p class="nombres"></p>
+              <p class="apellidos"></p>
+              <p class="celular"></p>
+              <p class="correo"></p>
+              <p class="cantidad"></p>
+              <p class="fecha"></p>
+              <p class="hora"></p>
+            </div>
+          </template>
+
+    </main>
+    <footer class="footerHR">
+      <div class="telefonos">
+          <h3>Telefonos</h3>
+          <pre>
+601 5589612
+601 8854574
+          </pre>
+      </div>
+      <div class="redes">
+          <a href=""><i class='bx bxl-linkedin' ></i></a>
+          <a href=""><i class='bx bxl-instagram'></i></a>
+          <a href=""><i class='bx bxl-facebook-circle'></i></a>
+      </div>
+      <div class="direccion">
+          <h3>Direccion</h3>
+          <p>Cll 85 #78 - 25 Chapinero</p>
+      </div>
+  </footer>
+    <script src="../dist/api.js"></script>
+    <script type="module" src="../dist/reservas.js"></script>
+</body>
+</html>
